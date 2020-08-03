@@ -1,0 +1,742 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#"
+     xml:base="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial">
+        <owl:versionIRI rdf:resource="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial/1.0.0"/>
+        <dc:contributor xml:lang="es">Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid</dc:contributor>
+        <dc:contributor xml:lang="es">María Carmen Ruiz Moreno - Ayuntamiento de Madrid</dc:contributor>
+        <dc:contributor xml:lang="es">María Jesús Fernández Ruiz - Ayuntamiento de Zaragoza</dc:contributor>
+        <dc:contributor xml:lang="es">María Jesús Gallego San Miguel - Ayuntamiento de Madrid</dc:contributor>
+        <dc:contributor xml:lang="es">María del Mar Arribas de Andrés - Ayuntamiento de Madrid</dc:contributor>
+        <dc:contributor xml:lang="es">Red.es</dc:contributor>
+        <dc:contributor xml:lang="es">Servicio de Informática - Ayuntamiento de Santiago de Compostela</dc:contributor>
+        <dc:contributor xml:lang="es">Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña</dc:contributor>
+        <dc:contributor xml:lang="es">Víctor Morlán Plo - Ayuntamiento de Zaragoza</dc:contributor>
+        <dc:creator>Edna Ruckhaus (Ontology Engineering Group - Universidad Politécnica de Madrid)</dc:creator>
+        <dc:creator>Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, Localidata)</dc:creator>
+        <dc:identifier xml:lang="es">http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial</dc:identifier>
+        <dc:title xml:lang="es">Vocabulario para la representación de la información de la Deuda Pública Comercial de un ayuntamiento.</dc:title>
+        <dc:title xml:lang="en">Vocabulary for the representation of the Economical  Public Debt of a city council.</dc:title>
+        <terms:creator>Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)</terms:creator>
+        <terms:hasFormat xml:lang="es">http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial.owl</terms:hasFormat>
+        <terms:issued xml:lang="es">2020-05-20</terms:issued>
+        <terms:license>https://creativecommons.org/licenses/by/4.0</terms:license>
+        <vann:preferredNamespacePrefix>http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial</vann:preferredNamespaceUri>
+        <rdfs:comment xml:lang="es">Esta versión ha sido generada dentro del contexto del proyecto &quot;Plataforma de gobierno abierto, colaborativa e interoperable&quot; en el que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y A Coruña. En esta versión se tienen clases y propiedades de acuerdo a los requisitos y glosario de conceptos validados en la reunión del 16/04/2020.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Vocabulario para la representación de la información de la deuda pública comercial tomando en cuenta que la deuda pública es uno de los indicadores esenciales de las cuentas públicas para entender el estado de la situación económica de un ayuntamiento. La deuda comercial incluye los datos del informe de morosidad trimestral y los datos de Período Medio de Pago (PMP) mensual.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Vocabulary for the representation of the economical  public debt taking into account that public debt is one of the essential indicators of public accountability and to understand the state of the economic situation of a city council. The Commercial Debt includes the data from the quarterly late payment report and the monthly Average Payment Period (PMP) data.</rdfs:comment>
+        <owl:versionInfo>Esta es la versión inicial de la ontología de Deuda pública que ha sido implementada en el contexto del proyecto &quot;Plataforma de gobierno abierto, colaborativa e interoperable&quot; en la que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y La Coruña.</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/identifier -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/identifier"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/hasFormat -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/hasFormat"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#example -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#example"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#scopeNote -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#scopeNote"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#duration -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#duration"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#gMonthDay -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#gMonthDay"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#gYear -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#gYear"/>
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#gYearMonth -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#gYearMonth"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#entidad -->
+
+
+    <owl:ObjectProperty rdf:about="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#entidad">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual"/>
+                    <rdf:Description rdf:about="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/ns/org#Organization"/>
+        <rdfs:comment xml:lang="es">Ayuntamiento o entidad dependiente sobre el cual se informa.</rdfs:comment>
+        <rdfs:comment xml:lang="en">City council or dependent entity on which it is informed.</rdfs:comment>
+        <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="es">entidad</rdfs:label>
+        <rdfs:label xml:lang="en">entity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodo -->
+
+
+    <owl:ObjectProperty rdf:about="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodo">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual"/>
+                    <rdf:Description rdf:about="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+        <rdfs:comment xml:lang="en">Period being reported on a late payment report.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Período que se está reportando en un informe de morosidad.</rdfs:comment>
+        <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">period</rdfs:label>
+        <rdfs:label xml:lang="es">período</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasBeginning -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#hasBeginning">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2006/time#hasTime"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#Instant"/>
+        <rdfs:comment xml:lang="en">Beginning of a temporal entity</rdfs:comment>
+        <rdfs:comment xml:lang="es">Comienzo de una entidad temporal.</rdfs:comment>
+        <rdfs:label xml:lang="en">has beginning</rdfs:label>
+        <rdfs:label xml:lang="es">tiene principio</rdfs:label>
+        <skos:definition xml:lang="en">Beginning of a temporal entity.</skos:definition>
+        <skos:definition xml:lang="es">Comienzo de una entidad temporal.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasEnd -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#hasEnd">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2006/time#hasTime"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2006/time#Instant"/>
+        <rdfs:comment xml:lang="en">End of a temporal entity.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Final de una entidad temporal.</rdfs:comment>
+        <rdfs:label xml:lang="en">has end</rdfs:label>
+        <rdfs:label xml:lang="es">tiene fin</rdfs:label>
+        <skos:definition xml:lang="en">End of a temporal entity.</skos:definition>
+        <skos:definition xml:lang="es">Final de una entidad temporal.</skos:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2006/time#hasTime -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2006/time#hasTime"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeFacturasPendientes -->
+
+
+    <owl:DatatypeProperty rdf:about="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeFacturasPendientes">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment xml:lang="es">Importe total de facturas pendientes por pagar en el período.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Total amount of pending invoices payable in the period.</rdfs:comment>
+        <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">amount pending invoices</rdfs:label>
+        <rdfs:label xml:lang="es">importe facturas pendientes</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeInteresesDemora -->
+
+
+    <owl:DatatypeProperty rdf:about="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeInteresesDemora">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:comment xml:lang="es">Importe total de intereses de demora pagados en el período.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Total amount of late payment interest paid in the period.</rdfs:comment>
+        <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">amount late payment interest</rdfs:label>
+        <rdfs:label xml:lang="es">importe intereses demora</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeOperacionesPagadas -->
+
+
+    <owl:DatatypeProperty rdf:about="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeOperacionesPagadas">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment xml:lang="es">Importe total de operaciones pagadas durante el período.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Total amount of operations paid during the period.</rdfs:comment>
+        <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">amount paid operations</rdfs:label>
+        <rdfs:label xml:lang="es">importe operaciones pagadas</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeOperacionesPendientesPago -->
+
+
+    <owl:DatatypeProperty rdf:about="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeOperacionesPendientesPago">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment xml:lang="es">Importe total de operaciones pendientes de pago en el período.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Total amount of operations pending payment in the period.</rdfs:comment>
+        <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">amount operations pending payment</rdfs:label>
+        <rdfs:label xml:lang="es">importe operaciones pendientes pago</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosDentroPeriodo -->
+
+
+    <owl:DatatypeProperty rdf:about="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosDentroPeriodo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment xml:lang="es">Importe total de pagos realizados dentro del período.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Total amount of payments made within the legal payment period.</rdfs:comment>
+        <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">amount paid in period</rdfs:label>
+        <rdfs:label xml:lang="es">importe pagos dentro periodo</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosFueraPeríodo -->
+
+
+    <owl:DatatypeProperty rdf:about="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosFueraPeríodo">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment xml:lang="es">Importe total de pagos realizados fuera del período legal de pago.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Total amount of payments made outside the legal payment period.</rdfs:comment>
+        <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">amount payments ourside period</rdfs:label>
+        <rdfs:label xml:lang="es">importe pagos fuera período</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numFacturasPendientes -->
+
+
+    <owl:DatatypeProperty rdf:about="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numFacturasPendientes">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="es">Número total de facturas pendientes de pago en el período.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Total number of invoices pending payment in the period.</rdfs:comment>
+        <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">number pending invoices</rdfs:label>
+        <rdfs:label xml:lang="es">número facturas pendientes</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosDentroPeriodo -->
+
+
+    <owl:DatatypeProperty rdf:about="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosDentroPeriodo">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">Número de pagos realizados dentro del período legal de pago.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Número de pagos realizados dentro del período legal de pago.</rdfs:comment>
+        <rdfs:comment xml:lang="en">number payments in period</rdfs:comment>
+        <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="es">número pagos dentro período</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosFueraPeríodo -->
+
+
+    <owl:DatatypeProperty rdf:about="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosFueraPeríodo">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">Number of payments outside the legal payment period.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Número de pagos fuera del período legal de pago.</rdfs:comment>
+        <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="es">number payments outside period</rdfs:label>
+        <rdfs:label xml:lang="en">número pagos fuera período</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosInteresesDemora -->
+
+
+    <owl:DatatypeProperty rdf:about="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosInteresesDemora">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">Number of payments with late payment interest within the period.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Número de pagos con intereses de demora dentro del período.</rdfs:comment>
+        <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">number payments late payment interest</rdfs:label>
+        <rdfs:label xml:lang="es">número pagos intereses demora</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoMensual -->
+
+
+    <owl:DatatypeProperty rdf:about="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoMensual">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment xml:lang="en">Average period of  payment to suppliers monthly.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Período medio de pago  a proveedores mensual expresado en días.</rdfs:comment>
+        <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Average monthly payment period</rdfs:label>
+        <rdfs:label xml:lang="es">Período medio pago mensual</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoMensualGlobal -->
+
+
+    <owl:DatatypeProperty rdf:about="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoMensualGlobal">
+        <rdfs:comment xml:lang="en">Global average monthly payment period to suppliers expressed in days.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Período medio de pago  a proveedores mensual global del ayuntamiento,  expresado en días.</rdfs:comment>
+        <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">global monthly average payment period</rdfs:label>
+        <rdfs:label xml:lang="es">período medio pago mensual global</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoPendiente -->
+
+
+    <owl:DatatypeProperty rdf:about="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoPendiente">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment xml:lang="en">Average pending payment period expressed in days.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Período medio de pago pendiente del período expresado en días.</rdfs:comment>
+        <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">average period pending payment</rdfs:label>
+        <rdfs:label xml:lang="es">período medio pago pendiente</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoTrimestral -->
+
+
+    <owl:DatatypeProperty rdf:about="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoTrimestral">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:comment xml:lang="en">Average period of  payment to suppliers quarterly.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Período medio de pago  a proveedores trimestral expresado en días.</rdfs:comment>
+        <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">average quarterly payment period</rdfs:label>
+        <rdfs:label xml:lang="es">período medio pago trimestral</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPagadas -->
+
+
+    <owl:DatatypeProperty rdf:about="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPagadas">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment xml:lang="es">Indicador del número de días promedio que se ha tardado en realizar los pagos en el período.</rdfs:comment>
+        <rdfs:comment>Indicator of the average number of days it took to make payments in this period.</rdfs:comment>
+        <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="es">ratio operaciones pagadas</rdfs:label>
+        <rdfs:label xml:lang="en">ratio paid operations</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPendientes -->
+
+
+    <owl:DatatypeProperty rdf:about="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPendientes">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment xml:lang="es">indicador del número de días promedio de antigüedad de las operaciones
+pendientes de pago al final del período.</rdfs:comment>
+        <rdfs:comment xml:lang="en">indicator of the average number of days of operations pending payment at the end of the period.</rdfs:comment>
+        <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="es">ratio operaciones pendientes</rdfs:label>
+        <rdfs:label xml:lang="en">ratio pending operations</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#tipoContabilidad -->
+
+
+    <owl:DatatypeProperty rdf:about="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#tipoContabilidad">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en"></rdfs:comment>
+        <rdfs:comment xml:lang="en">Accounting Type: Business or Limited.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Tipo de contabilidad: Empresarial o Limitativa</rdfs:comment>
+        <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">accounting type</rdfs:label>
+        <rdfs:label xml:lang="es">tipo contabilidad</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#notation -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2004/02/skos/core#notation"/>
+    
+
+
+    <!-- http://www.w3.org/2006/time#inXSDgYearMonth -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#inXSDgYearMonth">
+        <rdfs:domain rdf:resource="http://www.w3.org/2006/time#Instant"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gYearMonth"/>
+        <rdfs:comment xml:lang="es">Posición de un instante, expresado utilizando xsd:gYearMonth.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Position of an instant, expressed using xsd:gYearMonth</rdfs:comment>
+        <rdfs:label xml:lang="es">en año-mes gregoriano XSD</rdfs:label>
+        <rdfs:label xml:lang="en">in XSD g-YearMonth</rdfs:label>
+        <skos:definition xml:lang="es">Posición de un instante, expresado utilizando xsd:gYearMonth.</skos:definition>
+        <skos:definition xml:lang="en">Position of an instant, expressed using xsd:gYearMonth</skos:definition>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/ns/org#identifier -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/ns/org#identifier">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2004/02/skos/core#notation"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/ns/org#Organization"/>
+        <rdfs:comment xml:lang="es">Código o identificador, como por ejemplo el CIF de una empresa, que permite identificar de forma inequívoca a una organización. Existen muchos códigos de identificación tanto nacionales como internacionales. Esta ontología no obliga al uso de ningún esquema en concreto. Los códigos de identificación utilizados en cada caso se deberían indicar mediante el uso de la propiedad “datatype” del valor del identificador. El uso de la propiedad “datatype” para especificar el esquema de notación utilizado está en consonancia con las buenas prácticas recomendadas para el uso de la propiedad `skos:notation`, de la que esta propiedad es una especialización.</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Donne un identifiant, comme par exemple le numéro d&apos;enregistrement d&apos;une entreprise, qui peut être utilisé comme identifiant unique pour l&apos;Organisation. De nombreux schémas nationaux et internationaux sont disponibles. Cette ontologie reste neutre par rapport au schéma utilisé. Le schéma particulier utilisé devrait être indiqué par le `datatype` de la valeur de l&apos;identifiant. Utiliser les datatypes pour distinguer les schémas de notation est cohérent avec les bonnes pratiques pour `skos:notation` dont cette propriété est une spécialisation.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Gives an identifier, such as a company registration number, that can be used to used to uniquely identify the organization. Many different national and international identier schemes are available. The org ontology is neutral to which schemes are used. The particular identifier scheme should be indicated by the datatype of the identifier value.  Using datatypes to distinguish the notation scheme used is consistent with recommended best practice for `skos:notation` of which this property is a specialization.</rdfs:comment>
+        <rdfs:comment xml:lang="it">Indica un identificatore univoco per l&apos;organizzazione, come ad esempio la partita IVA di un&apos;azienda. Molti schemi di identificazione a livello nazionale e internazionale sono disponibili allo scopo. L&apos;ontologia ORG è neutrale rispetto allo schema da utilizzare. Lo schema di identificazione dovrebbe essere indicato dal datatype del valore dell&apos;identificatore. L&apos;uso del datatype per distinguere lo schema di identificazione è coerente con le best practice per `skos:notation`, di cui questa proprietà è una specializzazione.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">組織を一意に識別するために使用できる会社登録番号などの識別子を与えます。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="fr">identifiant</rdfs:label>
+        <rdfs:label xml:lang="it">identificatore</rdfs:label>
+        <rdfs:label xml:lang="en">identifier</rdfs:label>
+        <rdfs:label xml:lang="es">tiene identificador</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual -->
+
+
+    <owl:Class rdf:about="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual">
+        <rdfs:comment xml:lang="es">Mensualmente el ayuntamiento y sus entidades dependientes reportan el Periodo Medio de Pago a Proveedores (PMP) expresado en días. Todos los ayuntamientos están obligados a comunicar el PMP mensual al Ministerio de Hacienda en los términos definidos por el Real Decreto 635/2014.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Monthly, the municipality and its dependent entities report the Average Period of Payment to Suppliers PMP) expressed in days. All municipalities are obliged to communicate the monthly PMP to the Ministry of Finance in the terms defined by Royal Decree 635/2014.</rdfs:comment>
+        <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="es">Informe morosidad mensual</rdfs:label>
+        <rdfs:label xml:lang="en">Late payment report</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensualGlobal -->
+
+
+    <owl:Class rdf:about="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensualGlobal">
+        <rdfs:comment xml:lang="es">Mensualmente se reporta el Periodo Medio de Pago Global a Proveedores Mensual expresado en días.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The Average Monthly Global Payment Period to Suppliers is reported monthly expressed in days.</rdfs:comment>
+        <rdfs:label xml:lang="en">Global monthly late payment</rdfs:label>
+        <rdfs:label xml:lang="es">Informe morosidad mensual global</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral -->
+
+
+    <owl:Class rdf:about="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral">
+        <rdfs:comment xml:lang="es"></rdfs:comment>
+        <rdfs:comment xml:lang="es">Trimestralmente el ayuntamiento y sus entidades dependientes reportan el Periodo Medio de Pago a Proveedores expresado en días.</rdfs:comment>
+        <rdfs:comment>Quarterly the municipality and its dependent entities report the Average Period of Payment to Suppliers expressed in days.</rdfs:comment>
+        <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="es">Informe morosidad trimestral</rdfs:label>
+        <rdfs:label xml:lang="en">Late payment quarterly report</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Instant -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#Instant">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+        <owl:disjointWith rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+        <rdfs:comment xml:lang="en">A temporal entity with zero extent or duration</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una entidad temporal con una extensión o duración cero.</rdfs:comment>
+        <rdfs:label xml:lang="en">Time instant</rdfs:label>
+        <rdfs:label xml:lang="es">instante de tiempo.</rdfs:label>
+        <skos:definition xml:lang="en">A temporal entity with zero extent or duration</skos:definition>
+        <skos:definition xml:lang="es">Una entidad temporal con una extensión o duración cero.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#Interval -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#Interval">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#TemporalEntity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#ProperInterval -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#ProperInterval">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2006/time#Interval"/>
+        <rdfs:comment xml:lang="en">A temporal entity with non-zero extent or duration, i.e. for which the value of the beginning and end are different</rdfs:comment>
+        <rdfs:comment xml:lang="es">Una entidad temporal con extensión o duración distinta de cero, es decir, para la cual los valores de principio y fin del intervalo son diferentes.</rdfs:comment>
+        <rdfs:label xml:lang="en">Proper interval</rdfs:label>
+        <rdfs:label xml:lang="es">intervalo propio</rdfs:label>
+        <skos:definition xml:lang="en">A temporal entity with non-zero extent or duration, i.e. for which the value of the beginning and end are different</skos:definition>
+        <skos:definition xml:lang="es">Una entidad temporal con extensión o duración distinta de cero, es decir, para la cual los valores de principio y fin del intervalo son diferentes.</skos:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2006/time#TemporalEntity -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/2006/time#TemporalEntity"/>
+    
+
+
+    <!-- http://www.w3.org/ns/org#Organization -->
+
+
+    <owl:Class rdf:about="http://www.w3.org/ns/org#Organization">
+        <rdfs:comment xml:lang="es">Grupo de personas que se organiza en una comunidad u otro tipo de estructura social, comercial o política. Dicho grupo tiene un objetivo o motivo común para su existencia que va más allá del conjunto de personas que lo forman y que puede actuar como “agente”. A menudo las organizaciones se pueden agrupar en estructuras jerárquicas. Se recomienda el uso de etiquetas de SKOS para denominar a cada “organización”. En concreto, `skos:prefLabel` para la denominación principal o recomendada (aquella reconocida legalmente, siempre que sea posible), `skos:altLabel` para denominaciones alternativas (nombre comercial, sigla, denominación por la que se conoce a la organización coloquialmente) y `skos:notation` para referirse al código que identifique a la organización en una lista de códigos. Denominaciones alternativas: _colectivo_ _corporación_ _grupo_</rdfs:comment>
+        <rdfs:comment xml:lang="it">Rappresenta una collezione di persone organizzate all&apos;interno di una communità o di una qualche struttura sociale, commerciale o politica. Il gruppo condivide un obiettivo o una ragione d&apos;essere che va oltre gli stessi membri appartenenti al gruppo e  può agire come un Agent. Le organizzazioni si possono spesso suddividere in strutture gerarchiche. Si raccomanda di usare le label per l&apos;Organization mediante le proprietà di SKOS. In particolare, `skos:prefLabel` per il nome principale (possibilmente un nome legalmente riconosciuto)”, `skos:altLabel` come nome alternativo (denominazione commerciale, denominazione colloquiale) e `skos:notation` per indicare un codice di una lista di codici.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Represents a collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent. Organizations are often decomposable into hierarchical structures.  It is recommended that SKOS lexical labels should be used to label the Organization. In particular `skos:prefLabel` for the primary (possibly legally recognized name), `skos:altLabel` for alternative names (trading names, colloquial names) and `skos:notation` to denote a code from a code list. Alternative names: _Collective_ _Body_ _Org_ _Group_</rdfs:comment>
+        <rdfs:comment xml:lang="fr">Représente un groupe de personnes organisées en communauté où tout autre forme de structure sociale, commerciale ou politique. Le groupe a un but commun ou une raison d&apos;être qui va au-delà de la somme des personnes qui en font partie et peut agir en tant que &quot;Agent&quot;. Les organisations sont souvent décomposables en structures hiérarchisées. Il est recommandé que des labels lexicaux SKOS soient utilisés pour nommer l&apos;Organisation. En particulier `skos:prefLabel` pour le nom principal (en général le nom légal), `skos:altLabel` pour les noms alternatifs (marques, sigles, appellations familières) et `skos:notation` pour indiquer un code provenant d&apos;une liste de code.</rdfs:comment>
+        <rdfs:comment xml:lang="ja">コミュニティー、その他の社会、商業、政治的な構造に共に編入された人々の集合を表わします。グループには、そこに属する人々を超えた、存在に対するある共通の目的や理由があり、エージェント（代理）を務めることができます。組織は、多くの場合、階層構造に分割できます。</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
+        <rdfs:label xml:lang="fr">Organisation</rdfs:label>
+        <rdfs:label xml:lang="en">Organization</rdfs:label>
+        <rdfs:label xml:lang="it">Organizzazione</rdfs:label>
+        <rdfs:label xml:lang="es">organización</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/ -->
+
+
