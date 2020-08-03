@@ -1,0 +1,470 @@
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial> <http://www.w3.org/2002/07/owl#versionIRI> <http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial/1.0.0> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial> <http://purl.org/dc/elements/1.1/contributor> "Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid"@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial> <http://purl.org/dc/elements/1.1/contributor> "María Carmen Ruiz Moreno - Ayuntamiento de Madrid"@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial> <http://purl.org/dc/elements/1.1/contributor> "María Jesús Fernández Ruiz - Ayuntamiento de Zaragoza"@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial> <http://purl.org/dc/elements/1.1/contributor> "María Jesús Gallego San Miguel - Ayuntamiento de Madrid"@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial> <http://purl.org/dc/elements/1.1/contributor> "María del Mar Arribas de Andrés - Ayuntamiento de Madrid"@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial> <http://purl.org/dc/elements/1.1/contributor> "Red.es"@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial> <http://purl.org/dc/elements/1.1/contributor> "Servicio de Informática - Ayuntamiento de Santiago de Compostela"@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial> <http://purl.org/dc/elements/1.1/contributor> "Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña"@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial> <http://purl.org/dc/elements/1.1/contributor> "Víctor Morlán Plo - Ayuntamiento de Zaragoza"@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial> <http://purl.org/dc/elements/1.1/creator> "Edna Ruckhaus (Ontology Engineering Group - Universidad Politécnica de Madrid)" .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial> <http://purl.org/dc/elements/1.1/creator> "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, Localidata)" .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial> <http://purl.org/dc/elements/1.1/identifier> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial"@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial> <http://purl.org/dc/elements/1.1/title> "Vocabulario para la representación de la información de la Deuda Pública Comercial de un ayuntamiento."@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial> <http://purl.org/dc/elements/1.1/title> "Vocabulary for the representation of the Economical  Public Debt of a city council."@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial> <http://purl.org/dc/terms/creator> "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)" .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial> <http://purl.org/dc/terms/hasFormat> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial.owl"@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial> <http://purl.org/dc/terms/issued> "2020-05-20"@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial> <http://purl.org/dc/terms/license> "https://creativecommons.org/licenses/by/4.0" .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial> <http://purl.org/vocab/vann/preferredNamespacePrefix> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#" .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial> <http://purl.org/vocab/vann/preferredNamespaceUri> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial" .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial> <http://www.w3.org/2000/01/rdf-schema#comment> "Esta versión ha sido generada dentro del contexto del proyecto \"Plataforma de gobierno abierto, colaborativa e interoperable\" en el que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y A Coruña. En esta versión se tienen clases y propiedades de acuerdo a los requisitos y glosario de conceptos validados en la reunión del 16/04/2020."@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial> <http://www.w3.org/2000/01/rdf-schema#comment> "Vocabulario para la representación de la información de la deuda pública comercial tomando en cuenta que la deuda pública es uno de los indicadores esenciales de las cuentas públicas para entender el estado de la situación económica de un ayuntamiento. La deuda comercial incluye los datos del informe de morosidad trimestral y los datos de Período Medio de Pago (PMP) mensual."@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial> <http://www.w3.org/2000/01/rdf-schema#comment> "Vocabulary for the representation of the economical  public debt taking into account that public debt is one of the essential indicators of public accountability and to understand the state of the economic situation of a city council. The Commercial Debt includes the data from the quarterly late payment report and the monthly Average Payment Period (PMP) data."@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial> <http://www.w3.org/2002/07/owl#versionInfo> "Esta es la versión inicial de la ontología de Deuda pública que ha sido implementada en el contexto del proyecto \"Plataforma de gobierno abierto, colaborativa e interoperable\" en la que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y La Coruña." .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/contributor
+<http://purl.org/dc/elements/1.1/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/identifier
+<http://purl.org/dc/elements/1.1/identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/hasFormat
+<http://purl.org/dc/terms/hasFormat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#definition
+<http://www.w3.org/2004/02/skos/core#definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#example
+<http://www.w3.org/2004/02/skos/core#example> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2004/02/skos/core#scopeNote
+<http://www.w3.org/2004/02/skos/core#scopeNote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#date
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# http://www.w3.org/2001/XMLSchema#duration
+<http://www.w3.org/2001/XMLSchema#duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# http://www.w3.org/2001/XMLSchema#gMonthDay
+<http://www.w3.org/2001/XMLSchema#gMonthDay> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# http://www.w3.org/2001/XMLSchema#gYear
+<http://www.w3.org/2001/XMLSchema#gYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# http://www.w3.org/2001/XMLSchema#gYearMonth
+<http://www.w3.org/2001/XMLSchema#gYearMonth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#entidad
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#entidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#entidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#entidad> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid1 <http://www.w3.org/2002/07/owl#unionOf> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#entidad> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/org#Organization> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#entidad> <http://www.w3.org/2000/01/rdf-schema#comment> "Ayuntamiento o entidad dependiente sobre el cual se informa."@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#entidad> <http://www.w3.org/2000/01/rdf-schema#comment> "City council or dependent entity on which it is informed."@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#entidad> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial" .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#entidad> <http://www.w3.org/2000/01/rdf-schema#label> "entidad"@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#entidad> <http://www.w3.org/2000/01/rdf-schema#label> "entity"@en .
+# 
+# http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodo
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodo> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid4 <http://www.w3.org/2002/07/owl#unionOf> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2006/time#ProperInterval> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodo> <http://www.w3.org/2000/01/rdf-schema#comment> "Period being reported on a late payment report."@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodo> <http://www.w3.org/2000/01/rdf-schema#comment> "Período que se está reportando en un informe de morosidad."@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial" .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodo> <http://www.w3.org/2000/01/rdf-schema#label> "period"@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodo> <http://www.w3.org/2000/01/rdf-schema#label> "período"@es .
+# 
+# http://www.w3.org/2006/time#hasBeginning
+<http://www.w3.org/2006/time#hasBeginning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2006/time#hasBeginning> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2006/time#hasTime> .
+<http://www.w3.org/2006/time#hasBeginning> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2006/time#TemporalEntity> .
+<http://www.w3.org/2006/time#hasBeginning> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2006/time#Instant> .
+<http://www.w3.org/2006/time#hasBeginning> <http://www.w3.org/2000/01/rdf-schema#comment> "Beginning of a temporal entity"@en .
+<http://www.w3.org/2006/time#hasBeginning> <http://www.w3.org/2000/01/rdf-schema#comment> "Comienzo de una entidad temporal."@es .
+<http://www.w3.org/2006/time#hasBeginning> <http://www.w3.org/2000/01/rdf-schema#label> "has beginning"@en .
+<http://www.w3.org/2006/time#hasBeginning> <http://www.w3.org/2000/01/rdf-schema#label> "tiene principio"@es .
+<http://www.w3.org/2006/time#hasBeginning> <http://www.w3.org/2004/02/skos/core#definition> "Beginning of a temporal entity."@en .
+<http://www.w3.org/2006/time#hasBeginning> <http://www.w3.org/2004/02/skos/core#definition> "Comienzo de una entidad temporal."@es .
+# 
+# http://www.w3.org/2006/time#hasEnd
+<http://www.w3.org/2006/time#hasEnd> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.w3.org/2006/time#hasEnd> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2006/time#hasTime> .
+<http://www.w3.org/2006/time#hasEnd> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2006/time#TemporalEntity> .
+<http://www.w3.org/2006/time#hasEnd> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2006/time#Instant> .
+<http://www.w3.org/2006/time#hasEnd> <http://www.w3.org/2000/01/rdf-schema#comment> "End of a temporal entity."@en .
+<http://www.w3.org/2006/time#hasEnd> <http://www.w3.org/2000/01/rdf-schema#comment> "Final de una entidad temporal."@es .
+<http://www.w3.org/2006/time#hasEnd> <http://www.w3.org/2000/01/rdf-schema#label> "has end"@en .
+<http://www.w3.org/2006/time#hasEnd> <http://www.w3.org/2000/01/rdf-schema#label> "tiene fin"@es .
+<http://www.w3.org/2006/time#hasEnd> <http://www.w3.org/2004/02/skos/core#definition> "End of a temporal entity."@en .
+<http://www.w3.org/2006/time#hasEnd> <http://www.w3.org/2004/02/skos/core#definition> "Final de una entidad temporal."@es .
+# 
+# http://www.w3.org/2006/time#hasTime
+<http://www.w3.org/2006/time#hasTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeFacturasPendientes
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeFacturasPendientes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeFacturasPendientes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeFacturasPendientes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeFacturasPendientes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeFacturasPendientes> <http://www.w3.org/2000/01/rdf-schema#comment> "Importe total de facturas pendientes por pagar en el período."@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeFacturasPendientes> <http://www.w3.org/2000/01/rdf-schema#comment> "Total amount of pending invoices payable in the period."@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeFacturasPendientes> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial" .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeFacturasPendientes> <http://www.w3.org/2000/01/rdf-schema#label> "amount pending invoices"@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeFacturasPendientes> <http://www.w3.org/2000/01/rdf-schema#label> "importe facturas pendientes"@es .
+# 
+# http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeInteresesDemora
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeInteresesDemora> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeInteresesDemora> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#comment> "Importe total de intereses de demora pagados en el período."@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#comment> "Total amount of late payment interest paid in the period."@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial" .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#label> "amount late payment interest"@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#label> "importe intereses demora"@es .
+# 
+# http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeOperacionesPagadas
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeOperacionesPagadas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeOperacionesPagadas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeOperacionesPagadas> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeOperacionesPagadas> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeOperacionesPagadas> <http://www.w3.org/2000/01/rdf-schema#comment> "Importe total de operaciones pagadas durante el período."@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeOperacionesPagadas> <http://www.w3.org/2000/01/rdf-schema#comment> "Total amount of operations paid during the period."@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeOperacionesPagadas> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial" .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeOperacionesPagadas> <http://www.w3.org/2000/01/rdf-schema#label> "amount paid operations"@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeOperacionesPagadas> <http://www.w3.org/2000/01/rdf-schema#label> "importe operaciones pagadas"@es .
+# 
+# http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeOperacionesPendientesPago
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeOperacionesPendientesPago> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeOperacionesPendientesPago> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeOperacionesPendientesPago> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeOperacionesPendientesPago> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeOperacionesPendientesPago> <http://www.w3.org/2000/01/rdf-schema#comment> "Importe total de operaciones pendientes de pago en el período."@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeOperacionesPendientesPago> <http://www.w3.org/2000/01/rdf-schema#comment> "Total amount of operations pending payment in the period."@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeOperacionesPendientesPago> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial" .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeOperacionesPendientesPago> <http://www.w3.org/2000/01/rdf-schema#label> "amount operations pending payment"@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeOperacionesPendientesPago> <http://www.w3.org/2000/01/rdf-schema#label> "importe operaciones pendientes pago"@es .
+# 
+# http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosDentroPeriodo
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosDentroPeriodo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosDentroPeriodo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosDentroPeriodo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosDentroPeriodo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosDentroPeriodo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosDentroPeriodo> <http://www.w3.org/2000/01/rdf-schema#comment> "Importe total de pagos realizados dentro del período."@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosDentroPeriodo> <http://www.w3.org/2000/01/rdf-schema#comment> "Total amount of payments made within the legal payment period."@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosDentroPeriodo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial" .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosDentroPeriodo> <http://www.w3.org/2000/01/rdf-schema#label> "amount paid in period"@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosDentroPeriodo> <http://www.w3.org/2000/01/rdf-schema#label> "importe pagos dentro periodo"@es .
+# 
+# http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosFueraPeríodo
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosFueraPer\u00EDodo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosFueraPer\u00EDodo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosFueraPer\u00EDodo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosFueraPer\u00EDodo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosFueraPer\u00EDodo> <http://www.w3.org/2000/01/rdf-schema#comment> "Importe total de pagos realizados fuera del período legal de pago."@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosFueraPer\u00EDodo> <http://www.w3.org/2000/01/rdf-schema#comment> "Total amount of payments made outside the legal payment period."@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosFueraPer\u00EDodo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial" .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosFueraPer\u00EDodo> <http://www.w3.org/2000/01/rdf-schema#label> "amount payments ourside period"@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosFueraPer\u00EDodo> <http://www.w3.org/2000/01/rdf-schema#label> "importe pagos fuera período"@es .
+# 
+# http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numFacturasPendientes
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numFacturasPendientes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numFacturasPendientes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numFacturasPendientes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numFacturasPendientes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numFacturasPendientes> <http://www.w3.org/2000/01/rdf-schema#comment> "Número total de facturas pendientes de pago en el período."@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numFacturasPendientes> <http://www.w3.org/2000/01/rdf-schema#comment> "Total number of invoices pending payment in the period."@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numFacturasPendientes> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial" .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numFacturasPendientes> <http://www.w3.org/2000/01/rdf-schema#label> "number pending invoices"@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numFacturasPendientes> <http://www.w3.org/2000/01/rdf-schema#label> "número facturas pendientes"@es .
+# 
+# http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosDentroPeriodo
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosDentroPeriodo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosDentroPeriodo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosDentroPeriodo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosDentroPeriodo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosDentroPeriodo> <http://www.w3.org/2000/01/rdf-schema#comment> "Número de pagos realizados dentro del período legal de pago."@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosDentroPeriodo> <http://www.w3.org/2000/01/rdf-schema#comment> "Número de pagos realizados dentro del período legal de pago."@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosDentroPeriodo> <http://www.w3.org/2000/01/rdf-schema#comment> "number payments in period"@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosDentroPeriodo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial" .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosDentroPeriodo> <http://www.w3.org/2000/01/rdf-schema#label> "número pagos dentro período"@es .
+# 
+# http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosFueraPeríodo
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosFueraPer\u00EDodo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosFueraPer\u00EDodo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosFueraPer\u00EDodo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosFueraPer\u00EDodo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosFueraPer\u00EDodo> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of payments outside the legal payment period."@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosFueraPer\u00EDodo> <http://www.w3.org/2000/01/rdf-schema#comment> "Número de pagos fuera del período legal de pago."@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosFueraPer\u00EDodo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial" .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosFueraPer\u00EDodo> <http://www.w3.org/2000/01/rdf-schema#label> "number payments outside period"@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosFueraPer\u00EDodo> <http://www.w3.org/2000/01/rdf-schema#label> "número pagos fuera período"@en .
+# 
+# http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosInteresesDemora
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of payments with late payment interest within the period."@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#comment> "Número de pagos con intereses de demora dentro del período."@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial" .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#label> "number payments late payment interest"@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#label> "número pagos intereses demora"@es .
+# 
+# http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoMensual
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoMensual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoMensual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoMensual> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoMensual> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoMensual> <http://www.w3.org/2000/01/rdf-schema#comment> "Average period of  payment to suppliers monthly."@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoMensual> <http://www.w3.org/2000/01/rdf-schema#comment> "Período medio de pago  a proveedores mensual expresado en días."@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoMensual> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial" .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoMensual> <http://www.w3.org/2000/01/rdf-schema#label> "Average monthly payment period"@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoMensual> <http://www.w3.org/2000/01/rdf-schema#label> "Período medio pago mensual"@es .
+# 
+# http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoMensualGlobal
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoMensualGlobal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoMensualGlobal> <http://www.w3.org/2000/01/rdf-schema#comment> "Global average monthly payment period to suppliers expressed in days."@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoMensualGlobal> <http://www.w3.org/2000/01/rdf-schema#comment> "Período medio de pago  a proveedores mensual global del ayuntamiento,  expresado en días."@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoMensualGlobal> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial" .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoMensualGlobal> <http://www.w3.org/2000/01/rdf-schema#label> "global monthly average payment period"@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoMensualGlobal> <http://www.w3.org/2000/01/rdf-schema#label> "período medio pago mensual global"@es .
+# 
+# http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoPendiente
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoPendiente> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoPendiente> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoPendiente> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoPendiente> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoPendiente> <http://www.w3.org/2000/01/rdf-schema#comment> "Average pending payment period expressed in days."@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoPendiente> <http://www.w3.org/2000/01/rdf-schema#comment> "Período medio de pago pendiente del período expresado en días."@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoPendiente> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial" .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoPendiente> <http://www.w3.org/2000/01/rdf-schema#label> "average period pending payment"@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoPendiente> <http://www.w3.org/2000/01/rdf-schema#label> "período medio pago pendiente"@es .
+# 
+# http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoTrimestral
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoTrimestral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoTrimestral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoTrimestral> <http://www.w3.org/2000/01/rdf-schema#comment> "Average period of  payment to suppliers quarterly."@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoTrimestral> <http://www.w3.org/2000/01/rdf-schema#comment> "Período medio de pago  a proveedores trimestral expresado en días."@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoTrimestral> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial" .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoTrimestral> <http://www.w3.org/2000/01/rdf-schema#label> "average quarterly payment period"@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoTrimestral> <http://www.w3.org/2000/01/rdf-schema#label> "período medio pago trimestral"@es .
+# 
+# http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPagadas
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPagadas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPagadas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPagadas> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPagadas> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPagadas> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicador del número de días promedio que se ha tardado en realizar los pagos en el período."@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPagadas> <http://www.w3.org/2000/01/rdf-schema#comment> "Indicator of the average number of days it took to make payments in this period." .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPagadas> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial" .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPagadas> <http://www.w3.org/2000/01/rdf-schema#label> "ratio operaciones pagadas"@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPagadas> <http://www.w3.org/2000/01/rdf-schema#label> "ratio paid operations"@en .
+# 
+# http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPendientes
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPendientes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPendientes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPendientes> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPendientes> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPendientes> <http://www.w3.org/2000/01/rdf-schema#comment> "indicador del número de días promedio de antigüedad de las operaciones\npendientes de pago al final del período."@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPendientes> <http://www.w3.org/2000/01/rdf-schema#comment> "indicator of the average number of days of operations pending payment at the end of the period."@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPendientes> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial" .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPendientes> <http://www.w3.org/2000/01/rdf-schema#label> "ratio operaciones pendientes"@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPendientes> <http://www.w3.org/2000/01/rdf-schema#label> "ratio pending operations"@en .
+# 
+# http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#tipoContabilidad
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#tipoContabilidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#tipoContabilidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#tipoContabilidad> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#tipoContabilidad> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#tipoContabilidad> <http://www.w3.org/2000/01/rdf-schema#comment> ""@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#tipoContabilidad> <http://www.w3.org/2000/01/rdf-schema#comment> "Accounting Type: Business or Limited."@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#tipoContabilidad> <http://www.w3.org/2000/01/rdf-schema#comment> "Tipo de contabilidad: Empresarial o Limitativa"@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#tipoContabilidad> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial" .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#tipoContabilidad> <http://www.w3.org/2000/01/rdf-schema#label> "accounting type"@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#tipoContabilidad> <http://www.w3.org/2000/01/rdf-schema#label> "tipo contabilidad"@es .
+# 
+# http://www.w3.org/2004/02/skos/core#notation
+<http://www.w3.org/2004/02/skos/core#notation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.w3.org/2006/time#inXSDgYearMonth
+<http://www.w3.org/2006/time#inXSDgYearMonth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2006/time#inXSDgYearMonth> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2006/time#Instant> .
+<http://www.w3.org/2006/time#inXSDgYearMonth> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#gYearMonth> .
+<http://www.w3.org/2006/time#inXSDgYearMonth> <http://www.w3.org/2000/01/rdf-schema#comment> "Posición de un instante, expresado utilizando xsd:gYearMonth."@es .
+<http://www.w3.org/2006/time#inXSDgYearMonth> <http://www.w3.org/2000/01/rdf-schema#comment> "Position of an instant, expressed using xsd:gYearMonth"@en .
+<http://www.w3.org/2006/time#inXSDgYearMonth> <http://www.w3.org/2000/01/rdf-schema#label> "en año-mes gregoriano XSD"@es .
+<http://www.w3.org/2006/time#inXSDgYearMonth> <http://www.w3.org/2000/01/rdf-schema#label> "in XSD g-YearMonth"@en .
+<http://www.w3.org/2006/time#inXSDgYearMonth> <http://www.w3.org/2004/02/skos/core#definition> "Posición de un instante, expresado utilizando xsd:gYearMonth."@es .
+<http://www.w3.org/2006/time#inXSDgYearMonth> <http://www.w3.org/2004/02/skos/core#definition> "Position of an instant, expressed using xsd:gYearMonth"@en .
+# 
+# http://www.w3.org/ns/org#identifier
+<http://www.w3.org/ns/org#identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/ns/org#identifier> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#notation> .
+<http://www.w3.org/ns/org#identifier> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/ns/org#Organization> .
+<http://www.w3.org/ns/org#identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Código o identificador, como por ejemplo el CIF de una empresa, que permite identificar de forma inequívoca a una organización. Existen muchos códigos de identificación tanto nacionales como internacionales. Esta ontología no obliga al uso de ningún esquema en concreto. Los códigos de identificación utilizados en cada caso se deberían indicar mediante el uso de la propiedad “datatype” del valor del identificador. El uso de la propiedad “datatype” para especificar el esquema de notación utilizado está en consonancia con las buenas prácticas recomendadas para el uso de la propiedad `skos:notation`, de la que esta propiedad es una especialización."@es .
+<http://www.w3.org/ns/org#identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Donne un identifiant, comme par exemple le numéro d'enregistrement d'une entreprise, qui peut être utilisé comme identifiant unique pour l'Organisation. De nombreux schémas nationaux et internationaux sont disponibles. Cette ontologie reste neutre par rapport au schéma utilisé. Le schéma particulier utilisé devrait être indiqué par le `datatype` de la valeur de l'identifiant. Utiliser les datatypes pour distinguer les schémas de notation est cohérent avec les bonnes pratiques pour `skos:notation` dont cette propriété est une spécialisation."@fr .
+<http://www.w3.org/ns/org#identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Gives an identifier, such as a company registration number, that can be used to used to uniquely identify the organization. Many different national and international identier schemes are available. The org ontology is neutral to which schemes are used. The particular identifier scheme should be indicated by the datatype of the identifier value.  Using datatypes to distinguish the notation scheme used is consistent with recommended best practice for `skos:notation` of which this property is a specialization."@en .
+<http://www.w3.org/ns/org#identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Indica un identificatore univoco per l'organizzazione, come ad esempio la partita IVA di un'azienda. Molti schemi di identificazione a livello nazionale e internazionale sono disponibili allo scopo. L'ontologia ORG è neutrale rispetto allo schema da utilizzare. Lo schema di identificazione dovrebbe essere indicato dal datatype del valore dell'identificatore. L'uso del datatype per distinguere lo schema di identificazione è coerente con le best practice per `skos:notation`, di cui questa proprietà è una specializzazione."@it .
+<http://www.w3.org/ns/org#identifier> <http://www.w3.org/2000/01/rdf-schema#comment> "組織を一意に識別するために使用できる会社登録番号などの識別子を与えます。"@ja .
+<http://www.w3.org/ns/org#identifier> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/org> .
+<http://www.w3.org/ns/org#identifier> <http://www.w3.org/2000/01/rdf-schema#label> "identifiant"@fr .
+<http://www.w3.org/ns/org#identifier> <http://www.w3.org/2000/01/rdf-schema#label> "identificatore"@it .
+<http://www.w3.org/ns/org#identifier> <http://www.w3.org/2000/01/rdf-schema#label> "identifier"@en .
+<http://www.w3.org/ns/org#identifier> <http://www.w3.org/2000/01/rdf-schema#label> "tiene identificador"@es .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual> <http://www.w3.org/2000/01/rdf-schema#comment> "Mensualmente el ayuntamiento y sus entidades dependientes reportan el Periodo Medio de Pago a Proveedores (PMP) expresado en días. Todos los ayuntamientos están obligados a comunicar el PMP mensual al Ministerio de Hacienda en los términos definidos por el Real Decreto 635/2014."@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual> <http://www.w3.org/2000/01/rdf-schema#comment> "Monthly, the municipality and its dependent entities report the Average Period of Payment to Suppliers PMP) expressed in days. All municipalities are obliged to communicate the monthly PMP to the Ministry of Finance in the terms defined by Royal Decree 635/2014."@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial" .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual> <http://www.w3.org/2000/01/rdf-schema#label> "Informe morosidad mensual"@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual> <http://www.w3.org/2000/01/rdf-schema#label> "Late payment report"@en .
+# 
+# http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensualGlobal
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensualGlobal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensualGlobal> <http://www.w3.org/2000/01/rdf-schema#comment> "Mensualmente se reporta el Periodo Medio de Pago Global a Proveedores Mensual expresado en días."@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensualGlobal> <http://www.w3.org/2000/01/rdf-schema#comment> "The Average Monthly Global Payment Period to Suppliers is reported monthly expressed in days."@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensualGlobal> <http://www.w3.org/2000/01/rdf-schema#label> "Global monthly late payment"@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensualGlobal> <http://www.w3.org/2000/01/rdf-schema#label> "Informe morosidad mensual global"@es .
+# 
+# http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral> <http://www.w3.org/2000/01/rdf-schema#comment> ""@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral> <http://www.w3.org/2000/01/rdf-schema#comment> "Trimestralmente el ayuntamiento y sus entidades dependientes reportan el Periodo Medio de Pago a Proveedores expresado en días."@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral> <http://www.w3.org/2000/01/rdf-schema#comment> "Quarterly the municipality and its dependent entities report the Average Period of Payment to Suppliers expressed in days." .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial" .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral> <http://www.w3.org/2000/01/rdf-schema#label> "Informe morosidad trimestral"@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral> <http://www.w3.org/2000/01/rdf-schema#label> "Late payment quarterly report"@en .
+# 
+# http://www.w3.org/2006/time#Instant
+<http://www.w3.org/2006/time#Instant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2006/time#Instant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2006/time#TemporalEntity> .
+<http://www.w3.org/2006/time#Instant> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.w3.org/2006/time#ProperInterval> .
+<http://www.w3.org/2006/time#Instant> <http://www.w3.org/2000/01/rdf-schema#comment> "A temporal entity with zero extent or duration"@en .
+<http://www.w3.org/2006/time#Instant> <http://www.w3.org/2000/01/rdf-schema#comment> "Una entidad temporal con una extensión o duración cero."@es .
+<http://www.w3.org/2006/time#Instant> <http://www.w3.org/2000/01/rdf-schema#label> "Time instant"@en .
+<http://www.w3.org/2006/time#Instant> <http://www.w3.org/2000/01/rdf-schema#label> "instante de tiempo."@es .
+<http://www.w3.org/2006/time#Instant> <http://www.w3.org/2004/02/skos/core#definition> "A temporal entity with zero extent or duration"@en .
+<http://www.w3.org/2006/time#Instant> <http://www.w3.org/2004/02/skos/core#definition> "Una entidad temporal con una extensión o duración cero."@es .
+# 
+# http://www.w3.org/2006/time#Interval
+<http://www.w3.org/2006/time#Interval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2006/time#Interval> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2006/time#TemporalEntity> .
+# 
+# http://www.w3.org/2006/time#ProperInterval
+<http://www.w3.org/2006/time#ProperInterval> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2006/time#ProperInterval> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2006/time#Interval> .
+<http://www.w3.org/2006/time#ProperInterval> <http://www.w3.org/2000/01/rdf-schema#comment> "A temporal entity with non-zero extent or duration, i.e. for which the value of the beginning and end are different"@en .
+<http://www.w3.org/2006/time#ProperInterval> <http://www.w3.org/2000/01/rdf-schema#comment> "Una entidad temporal con extensión o duración distinta de cero, es decir, para la cual los valores de principio y fin del intervalo son diferentes."@es .
+<http://www.w3.org/2006/time#ProperInterval> <http://www.w3.org/2000/01/rdf-schema#label> "Proper interval"@en .
+<http://www.w3.org/2006/time#ProperInterval> <http://www.w3.org/2000/01/rdf-schema#label> "intervalo propio"@es .
+<http://www.w3.org/2006/time#ProperInterval> <http://www.w3.org/2004/02/skos/core#definition> "A temporal entity with non-zero extent or duration, i.e. for which the value of the beginning and end are different"@en .
+<http://www.w3.org/2006/time#ProperInterval> <http://www.w3.org/2004/02/skos/core#definition> "Una entidad temporal con extensión o duración distinta de cero, es decir, para la cual los valores de principio y fin del intervalo son diferentes."@es .
+# 
+# http://www.w3.org/2006/time#TemporalEntity
+<http://www.w3.org/2006/time#TemporalEntity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.w3.org/ns/org#Organization
+<http://www.w3.org/ns/org#Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/ns/org#Organization> <http://www.w3.org/2000/01/rdf-schema#comment> "Grupo de personas que se organiza en una comunidad u otro tipo de estructura social, comercial o política. Dicho grupo tiene un objetivo o motivo común para su existencia que va más allá del conjunto de personas que lo forman y que puede actuar como “agente”. A menudo las organizaciones se pueden agrupar en estructuras jerárquicas. Se recomienda el uso de etiquetas de SKOS para denominar a cada “organización”. En concreto, `skos:prefLabel` para la denominación principal o recomendada (aquella reconocida legalmente, siempre que sea posible), `skos:altLabel` para denominaciones alternativas (nombre comercial, sigla, denominación por la que se conoce a la organización coloquialmente) y `skos:notation` para referirse al código que identifique a la organización en una lista de códigos. Denominaciones alternativas: _colectivo_ _corporación_ _grupo_"@es .
+<http://www.w3.org/ns/org#Organization> <http://www.w3.org/2000/01/rdf-schema#comment> "Rappresenta una collezione di persone organizzate all'interno di una communità o di una qualche struttura sociale, commerciale o politica. Il gruppo condivide un obiettivo o una ragione d'essere che va oltre gli stessi membri appartenenti al gruppo e  può agire come un Agent. Le organizzazioni si possono spesso suddividere in strutture gerarchiche. Si raccomanda di usare le label per l'Organization mediante le proprietà di SKOS. In particolare, `skos:prefLabel` per il nome principale (possibilmente un nome legalmente riconosciuto)”, `skos:altLabel` come nome alternativo (denominazione commerciale, denominazione colloquiale) e `skos:notation` per indicare un codice di una lista di codici."@it .
+<http://www.w3.org/ns/org#Organization> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents a collection of people organized together into a community or other social, commercial or political structure. The group has some common purpose or reason for existence which goes beyond the set of people belonging to it and can act as an Agent. Organizations are often decomposable into hierarchical structures.  It is recommended that SKOS lexical labels should be used to label the Organization. In particular `skos:prefLabel` for the primary (possibly legally recognized name), `skos:altLabel` for alternative names (trading names, colloquial names) and `skos:notation` to denote a code from a code list. Alternative names: _Collective_ _Body_ _Org_ _Group_"@en .
+<http://www.w3.org/ns/org#Organization> <http://www.w3.org/2000/01/rdf-schema#comment> "Représente un groupe de personnes organisées en communauté où tout autre forme de structure sociale, commerciale ou politique. Le groupe a un but commun ou une raison d'être qui va au-delà de la somme des personnes qui en font partie et peut agir en tant que \"Agent\". Les organisations sont souvent décomposables en structures hiérarchisées. Il est recommandé que des labels lexicaux SKOS soient utilisés pour nommer l'Organisation. En particulier `skos:prefLabel` pour le nom principal (en général le nom légal), `skos:altLabel` pour les noms alternatifs (marques, sigles, appellations familières) et `skos:notation` pour indiquer un code provenant d'une liste de code."@fr .
+<http://www.w3.org/ns/org#Organization> <http://www.w3.org/2000/01/rdf-schema#comment> "コミュニティー、その他の社会、商業、政治的な構造に共に編入された人々の集合を表わします。グループには、そこに属する人々を超えた、存在に対するある共通の目的や理由があり、エージェント（代理）を務めることができます。組織は、多くの場合、階層構造に分割できます。"@ja .
+<http://www.w3.org/ns/org#Organization> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://www.w3.org/ns/org> .
+<http://www.w3.org/ns/org#Organization> <http://www.w3.org/2000/01/rdf-schema#label> "Organisation"@fr .
+<http://www.w3.org/ns/org#Organization> <http://www.w3.org/2000/01/rdf-schema#label> "Organization"@en .
+<http://www.w3.org/ns/org#Organization> <http://www.w3.org/2000/01/rdf-schema#label> "Organizzazione"@it .
+<http://www.w3.org/ns/org#Organization> <http://www.w3.org/2000/01/rdf-schema#label> "organización"@es .
+# 
+# Generated by the OWL API (version 5.1.14) https://github.com/owlcs/owlapi/
