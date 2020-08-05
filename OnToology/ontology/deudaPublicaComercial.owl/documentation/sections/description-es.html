@@ -1,3 +1,75 @@
-<h2 id="desc" class="list">Vocabulary for the representation of the Economical  Public Debt of a city council.: Descripci&oacute;n <span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></span></h2>
-<span class="markdown">Descripci&oacute;n completa de la ontolog&iacute;a: en caso de ser posible, a&ntilde;adir un diagrama explicando c&oacute;omo las clases est&aacute;n relacionadas, ejemplos de uso, etc.</span>
+<h2 id="desc" class="list">Vocabulario para la representación de la información de la Deuda Pública Comercial de un ayuntamiento: Descripci&oacute;n <span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></span></h2>
+<span class="markdown">La Figura 1 muestra las clases y propiedades del vocabulario que representa la Deuda Pública Comercial  de un ayuntamiento:</span>
+<center><img src="resources/images/modeloConceptual.png"><figcaption>Figura 1. - Modelo conceptual para la representación de la información de la deuda pública comercial</figcaption>
+</center>
+    <br>
+  <span class="markdown">
+En este vocabulario se tienen clases para representar el [esdeucom:InformeMorosidadTrimestral](#InformeMorosidadTrimestral) y el [esdeucom:InformeMorosidadMensual](#InformeMorosidadMensual) . Las propiedades de estas dos clases se corresponden a los campos de cada uno de los informes destacando el [esdeucom:periodoMedioPagoTrimestral](#periodoMedioPagoMensual) o PMP mensual y el [esdeucom:periodoMedioPagoTrimestral](#periodoMedioPagoTrimestral) o PMP trimestral. Los informes de morosidad mensual y trimestral se realizan en un determinado [esdeucom:periodo](#periodo) de tal manera que en es posible representar los informes de morosidad de varios meses o de varios trimestres y así poder realizar análisis comparativos acerca de la deuda comercial de un ayuntamiento a lo largo del tiempo. Además se tiene que el PMP Mensual se calcula globalmente para el ayuntamiento y se representa mediante la propiedad [esdeucom:periodoMedioPagoMensualGlobal](#periodoMedioPagoMensualGlobal) dentro de la clase [esdeucom:InformeMorosidadMensualGlobal](#InformeMorosidadMensualGlobal). Para representar el período se ha reutilizado la ontología [time](https://www.w3.org/TR/owl-time/), en particular las clases [time:ProperInterval](#http://www.w3.org/2006/time#ProperInterval) e [time:Instant](#http://www.w3.org/2006/time#Instant) para representar el inicio y final de un período.
+Los informes de morosidad se realizan ([esdeucom:entidad](#entidad)) tanto para la entidad local en sí como para sus entidades dependientes. La entidad local y sus entidades dependientes se representan mediante la clase [org:Organization](https://www.w3.org/TR/vocab-org/#class-organization) de la ontología [Organization](https://www.w3.org/TR/vocab-org/).
+</span>
+<h3>3.1 Ejemplos de uso<span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></span></h3>
+  <span class="markdown">
+  Con la finalidad de facilitar la comprensión del uso de algunas clases y propiedades de este vocabulario se proporcionarán a continuación algunos ejemplos.
+      
+  El primer ejemplo se refiere al informe de morosidad trimestral  de una entidad dependiente del ayuntamiento de Madrid, en particular se ejemplifica la Empresa Municipal de Transportes de Madrid para el cuarto trimestre del 2019.
+</span>
+<pre>
+&lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/informe-morosidad-trimestral/2019-cuarto-12-28-079-AP-001&gt; 
+        a esdeucom:InformeMorosidadTrimestral;
+        esdeucom:entidad  &lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/organizacion/12-28-079-AP-001&gt;;
+        esdeucom:periodo &lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/intervalo-tiempo/2019-cuarto-trimestre&gt;;
+        esdeucom:periodoMedioPagoTrimestral "55.50"^^xsd:float ;
+        esdeucom:numPagosDentroPeriodo "6472"^^xsd:integer ;
+        esdeucom:importePagosDentroPeriodo "51831754.13"^^xsd:float ;
+        esdeucom:numPagosFueraPeriodo "1124"^^xsd:integer ;
+        esdeucom:importePagosFueraPeriodo "5579630.33"^^xsd:float ;
+        esdeucom:numPagosInteresesDemora "0"^^xsd:integer ;
+        esdeucom:importePagosInteresesDemora "0.0^^xsd:float ;
+        esdeucom:periodoMedioPagoPendiente "33.87^^xsd:float ;
+        esdeucom:numFacturasPendientesDentroPeriodo "3020"^^xsd:integer ;
+        esdeucom:importeFacturasPendientesDentroPeriodo "34441734.41^^xsd:float ;
+        esdeucom:numFacturasPendientesFueraPeriodo "25"^^xsd:integer ;
+        esdeucom:importeFacturasPendientesFueraPeriodo "489769.85^^xsd:float ;
+        esdeucom:tipoContabilidad "empresarial"^^xsd:string .
+        
+&lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/organizacion/12-28-079-AP-001&gt; 
+        a org:Organization;
+        org:identifier "12-28-079-AP-001"^^xsd:string;
+        foaf:name "E.M.T. Madrid"^^xsd:string;.
+        
+&lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/intervalo-tiempo/2019-cuarto-trimestre&gt; 
+        a time:ProperInterval;
+        time:hasBeginning   [ a                        time:Instant ;
+                              time:inXSDDate  "2019-10-01^^xsd:date
+                            ] ;
+        time:hasEnd         [ a                        time:Instant ;
+                              time:inXSDDate  "2019-12-31^^xsd:date
+                            ] .
+</pre>
 
+<span class="markdown">
+  De manera similar se puede representar el Informe de Morosidad Mensual de un ayuntamiento o de alguna de sus entidades dependientes. Se ejemplifica el Instituto Municipal de Empleo y Fomento Empresarial del Ayuntamiento de Zaragoza correspondiente al mes de Junio de 2020.
+</span>
+<pre>
+&lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/informe-morosidad-mensual/02-50-297-AO-005&gt; 
+        a esdeucom:InformeMorosidadTrimestral;
+        esdeucom:entidad  &lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/organizacion/02-50-297-AO-005&gt;;
+        esdeucom:periodo &lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/intervalo-tiempo/2020-06 &gt;;
+        esdeucom:periodoMedioPagoMensual "18.72^^xsd:float ;
+        esdeucom:ratioOperacionesPagadas "18.51"^^xsd:float ;
+        esdeucom:ratioOperacionesPendientesPago "24.23"^^xsd:float .
+        
+&lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/organizacion/02-50-297-AO-005&gt; 
+        a org:Organization;
+        org:identifier "02-50-297-AO-005"^^xsd:string;
+        foaf:name "Inst. M. Empleo y Fomento Empresarial"^^xsd:string;.
+        
+&lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/intervalo-tiempo/2020-06&gt; 
+        a time:ProperInterval;
+        time:hasBeginning   [ a                        time:Instant ;
+                              time:inXSDDate  "2020-06-01^^xsd:date
+                            ] ;
+        time:hasEnd         [ a                        time:Instant ;
+                              time:inXSDDate  "2020-06-30^^xsd:date
+                            ] . 
+</pre>
