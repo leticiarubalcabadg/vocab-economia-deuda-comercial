@@ -518,8 +518,8 @@
 
     <owl:DatatypeProperty rdf:about="http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoTrimestral">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:comment xml:lang="en">Average period of  payment to suppliers quarterly.</rdfs:comment>
         <rdfs:comment xml:lang="es">Período medio de pago  a proveedores trimestral expresado en días.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Quaterly average period of  payment to suppliers.</rdfs:comment>
         <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial</rdfs:isDefinedBy>
         <rdfs:label xml:lang="en">average quarterly payment period</rdfs:label>
         <rdfs:label xml:lang="es">período medio pago trimestral</rdfs:label>

@@ -575,11 +575,11 @@
   "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoTrimestral",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "en",
-    "@value" : "Average period of  payment to suppliers quarterly."
-  }, {
     "@language" : "es",
     "@value" : "Período medio de pago  a proveedores trimestral expresado en días."
+  }, {
+    "@language" : "en",
+    "@value" : "Quaterly average period of  payment to suppliers."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial"
