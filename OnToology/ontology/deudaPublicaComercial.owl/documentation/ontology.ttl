@@ -254,7 +254,7 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                           rdfs:comment "Importe total de pagos realizados fuera del período legal de pago."@es ,
                                        "Total amount of payments made outside the legal payment period."@en ;
                           rdfs:isDefinedBy "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial" ;
-                          rdfs:label "amount payments ourside period"@en ,
+                          rdfs:label "amount payments outside period"@en ,
                                      "importe pagos fuera período"@es .
 
 

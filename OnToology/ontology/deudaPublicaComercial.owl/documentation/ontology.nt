@@ -244,7 +244,7 @@ _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 <http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosFueraPer\u00EDodo> <http://www.w3.org/2000/01/rdf-schema#comment> "Importe total de pagos realizados fuera del período legal de pago."@es .
 <http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosFueraPer\u00EDodo> <http://www.w3.org/2000/01/rdf-schema#comment> "Total amount of payments made outside the legal payment period."@en .
 <http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosFueraPer\u00EDodo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial" .
-<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosFueraPer\u00EDodo> <http://www.w3.org/2000/01/rdf-schema#label> "amount payments ourside period"@en .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosFueraPer\u00EDodo> <http://www.w3.org/2000/01/rdf-schema#label> "amount payments outside period"@en .
 <http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosFueraPer\u00EDodo> <http://www.w3.org/2000/01/rdf-schema#label> "importe pagos fuera período"@es .
 # 
 # http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numFacturasPendientes

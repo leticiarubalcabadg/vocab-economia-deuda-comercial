@@ -398,7 +398,7 @@
         <rdfs:comment xml:lang="es">Importe total de pagos realizados fuera del período legal de pago.</rdfs:comment>
         <rdfs:comment xml:lang="en">Total amount of payments made outside the legal payment period.</rdfs:comment>
         <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">amount payments ourside period</rdfs:label>
+        <rdfs:label xml:lang="en">amount payments outside period</rdfs:label>
         <rdfs:label xml:lang="es">importe pagos fuera período</rdfs:label>
     </owl:DatatypeProperty>
     
