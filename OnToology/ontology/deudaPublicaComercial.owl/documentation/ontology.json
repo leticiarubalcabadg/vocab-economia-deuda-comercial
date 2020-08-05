@@ -361,7 +361,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "amount payments ourside period"
+    "@value" : "amount payments outside period"
   }, {
     "@language" : "es",
     "@value" : "importe pagos fuera período"

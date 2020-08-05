@@ -1,7 +1,7 @@
 digraph ar2dtool_diagram { 
 rankdir=LR;
 size="1501"
-node [shape = rectangle, color="orange"]; "esdeucom:InformeMorosidadMensual" "-6de1e1b1:173b4d14fb0:-7ffc" "esdeucom:InformeMorosidadTrimestral" "-6de1e1b1:173b4d14fb0:-7ff9" "http://www.w3.org/2006/time#ProperInterval" "http://www.w3.org/2006/time#TemporalEntity" "http://www.w3.org/ns/org#Organization" "http://www.w3.org/2006/time#Instant" ; /*classes style*/
+node [shape = rectangle, color="orange"]; "esdeucom:InformeMorosidadMensual" "esdeucom:InformeMorosidadTrimestral" "http://www.w3.org/2006/time#ProperInterval" "5b7f74b2:173be1f0899:-7ffc" "5b7f74b2:173be1f0899:-7ff9" "http://www.w3.org/2006/time#TemporalEntity" "http://www.w3.org/ns/org#Organization" "http://www.w3.org/2006/time#Instant" ; /*classes style*/
 	"http://www.w3.org/2006/time#hasEnd" -> "http://www.w3.org/2006/time#hasTime" [ label = "rdfs:subPropertyOf" ];
 	"http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial" -> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial/1.0.0" [ label = "owl:versionIRI" ];
 	"http://www.w3.org/2006/time#Instant" -> "http://www.w3.org/2006/time#ProperInterval" [ label = "owl:disjointWith" ];
@@ -10,11 +10,11 @@ node [shape = rectangle, color="orange"]; "esdeucom:InformeMorosidadMensual" "-6
 	"http://www.w3.org/ns/org#identifier" -> "skos:notation" [ label = "rdfs:subPropertyOf" ];
 	"NULL" -> "rdf:nil" [ label = "rdf:rest" ];
 	"NULL" -> "esdeucom:InformeMorosidadTrimestral" [ label = "rdf:first" ];
-	"NULL" -> "-6de1e1b1:173b4d14fb0:-7ffa" [ label = "rdf:rest" ];
-	"NULL" -> "-6de1e1b1:173b4d14fb0:-7ff7" [ label = "rdf:rest" ];
+	"NULL" -> "5b7f74b2:173be1f0899:-7ffa" [ label = "rdf:rest" ];
+	"NULL" -> "5b7f74b2:173be1f0899:-7ff7" [ label = "rdf:rest" ];
 	"NULL" -> "esdeucom:InformeMorosidadMensual" [ label = "rdf:first" ];
-	"NULL" -> "-6de1e1b1:173b4d14fb0:-7ffb" [ label = "owl:unionOf" ];
-	"NULL" -> "-6de1e1b1:173b4d14fb0:-7ff8" [ label = "owl:unionOf" ];
+	"NULL" -> "5b7f74b2:173be1f0899:-7ffb" [ label = "owl:unionOf" ];
+	"NULL" -> "5b7f74b2:173be1f0899:-7ff8" [ label = "owl:unionOf" ];
 	"esdeucom:InformeMorosidadMensual" -> "xsd:float" [ label = "esdeucom:ratioOperacionesPendientes" ];
 	"esdeucom:InformeMorosidadTrimestral" -> "xsd:integer" [ label = "esdeucom:numPagosFueraPer?odo" ];
 	"http://www.w3.org/2006/time#TemporalEntity" -> "http://www.w3.org/2006/time#Instant" [ label = "http://www.w3.org/2006/time#hasEnd" ];
@@ -26,9 +26,9 @@ node [shape = rectangle, color="orange"]; "esdeucom:InformeMorosidadMensual" "-6
 	"esdeucom:InformeMorosidadTrimestral" -> "xsd:float" [ label = "esdeucom:importePagosDentroPeriodo" ];
 	"http://www.w3.org/2006/time#TemporalEntity" -> "http://www.w3.org/2006/time#Instant" [ label = "http://www.w3.org/2006/time#hasBeginning" ];
 	"esdeucom:InformeMorosidadTrimestral" -> "xsd:float" [ label = "esdeucom:periodoMedioPagoPendiente" ];
-	"-6de1e1b1:173b4d14fb0:-7ffc" -> "http://www.w3.org/ns/org#Organization" [ label = "esdeucom:entidad" ];
+	"5b7f74b2:173be1f0899:-7ffc" -> "http://www.w3.org/ns/org#Organization" [ label = "esdeucom:entidad" ];
 	"esdeucom:InformeMorosidadMensual" -> "xsd:float" [ label = "esdeucom:importeOperacionesPendientesPago" ];
-	"-6de1e1b1:173b4d14fb0:-7ff9" -> "http://www.w3.org/2006/time#ProperInterval" [ label = "esdeucom:periodo" ];
+	"5b7f74b2:173be1f0899:-7ff9" -> "http://www.w3.org/2006/time#ProperInterval" [ label = "esdeucom:periodo" ];
 	"http://www.w3.org/ns/org#Organization" -> "owl:Thing" [ label = "http://www.w3.org/ns/org#identifier" ];
 	"esdeucom:InformeMorosidadTrimestral" -> "xsd:float" [ label = "esdeucom:importePagosFueraPer?odo" ];
 	"esdeucom:InformeMorosidadMensual" -> "xsd:float" [ label = "esdeucom:periodoMedioPagoMensual" ];
