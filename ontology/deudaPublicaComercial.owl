@@ -480,8 +480,8 @@
         <rdfs:comment xml:lang="en">Average period of  payment to suppliers, quaterly.</rdfs:comment>
         <rdfs:comment xml:lang="es">Período medio de pago  a proveedores trimestral expresado en días.</rdfs:comment>
         <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">average quarterly payment period</rdfs:label>
         <rdfs:label xml:lang="es">período medio pago trimestral</rdfs:label>
+        <rdfs:label xml:lang="en">quaterly average payment period</rdfs:label>
     </owl:DatatypeProperty>
     
 
