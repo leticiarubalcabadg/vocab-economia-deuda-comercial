@@ -324,11 +324,11 @@ _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 # http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoTrimestral
 <http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoTrimestral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoTrimestral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoTrimestral> <http://www.w3.org/2000/01/rdf-schema#comment> "Average period of  payment to suppliers, quaterly."@en .
 <http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoTrimestral> <http://www.w3.org/2000/01/rdf-schema#comment> "Período medio de pago  a proveedores trimestral expresado en días."@es .
-<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoTrimestral> <http://www.w3.org/2000/01/rdf-schema#comment> "Quaterly average period of  payment to suppliers."@en .
 <http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoTrimestral> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial" .
-<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoTrimestral> <http://www.w3.org/2000/01/rdf-schema#label> "average quarterly payment period"@en .
 <http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoTrimestral> <http://www.w3.org/2000/01/rdf-schema#label> "período medio pago trimestral"@es .
+<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoTrimestral> <http://www.w3.org/2000/01/rdf-schema#label> "quaterly average payment period"@en .
 # 
 # http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPagadas
 <http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPagadas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .

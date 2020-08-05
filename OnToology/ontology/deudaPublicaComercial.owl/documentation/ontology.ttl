@@ -342,11 +342,11 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
 ###  http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoTrimestral
 :periodoMedioPagoTrimestral rdf:type owl:DatatypeProperty ,
                                      owl:FunctionalProperty ;
-                            rdfs:comment "Período medio de pago  a proveedores trimestral expresado en días."@es ,
-                                         "Quaterly average period of  payment to suppliers."@en ;
+                            rdfs:comment "Average period of  payment to suppliers, quaterly."@en ,
+                                         "Período medio de pago  a proveedores trimestral expresado en días."@es ;
                             rdfs:isDefinedBy "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial" ;
-                            rdfs:label "average quarterly payment period"@en ,
-                                       "período medio pago trimestral"@es .
+                            rdfs:label "período medio pago trimestral"@es ,
+                                       "quaterly average payment period"@en .
 
 
 ###  http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPagadas
