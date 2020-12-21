@@ -3,9 +3,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual"
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensual"
     }, {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral"
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral"
     } ]
   } ]
 }, {
@@ -13,9 +13,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual"
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensual"
     }, {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral"
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral"
     } ]
   } ]
 }, {
@@ -49,7 +49,7 @@
   "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial",
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/elements/1.1/contributor" : [ {
     "@language" : "es",
@@ -86,7 +86,7 @@
   } ],
   "http://purl.org/dc/elements/1.1/identifier" : [ {
     "@language" : "es",
-    "@value" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial"
+    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
   "http://purl.org/dc/elements/1.1/title" : [ {
     "@language" : "es",
@@ -100,7 +100,7 @@
   } ],
   "http://purl.org/dc/terms/hasFormat" : [ {
     "@language" : "es",
-    "@value" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial.owl"
+    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial.owl"
   } ],
   "http://purl.org/dc/terms/issued" : [ {
     "@language" : "es",
@@ -110,10 +110,10 @@
     "@value" : "https://creativecommons.org/licenses/by/4.0"
   } ],
   "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
-    "@value" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#"
+    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#"
   } ],
   "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
-    "@value" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial"
+    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
@@ -126,13 +126,13 @@
     "@value" : "Vocabulary for the representation of the economical  public debt taking into account that public debt is one of the essential indicators of public accountability and to understand the state of the economic situation of a city council. The Commercial Debt includes the data from the quarterly late payment report and the monthly Average Payment Period (PMP) data."
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial/1.0.0"
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial/1.0.0"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@value" : "Esta es la versión inicial de la ontología de Deuda pública que ha sido implementada en el contexto del proyecto \"Plataforma de gobierno abierto, colaborativa e interoperable\" en la que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y La Coruña."
   } ]
 }, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual",
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensual",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
@@ -142,7 +142,7 @@
     "@value" : "Monthly, the municipality and its dependent entities report the Average Period of Payment to Suppliers PMP) expressed in days. All municipalities are obliged to communicate the monthly PMP to the Ministry of Finance in the terms defined by Royal Decree 635/2014."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial"
+    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -152,7 +152,7 @@
     "@value" : "Late payment report"
   } ]
 }, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensualGlobal",
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensualGlobal",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
@@ -169,7 +169,7 @@
     "@value" : "Informe morosidad mensual global"
   } ]
 }, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral",
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
@@ -181,7 +181,7 @@
     "@value" : "Quarterly the municipality and its dependent entities report the Average Period of Payment to Suppliers expressed in days."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial"
+    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -191,7 +191,7 @@
     "@value" : "Late payment quarterly report"
   } ]
 }, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#entidad",
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#entidad",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
@@ -204,7 +204,7 @@
     "@id" : "_:genid1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial"
+    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -217,33 +217,59 @@
     "@id" : "http://www.w3.org/ns/org#Organization"
   } ]
 }, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeFacturasPendientes",
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeFacturasPendientesDentroPeriodo",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
-    "@value" : "Importe total de facturas pendientes por pagar en el período."
+    "@value" : "Importe total de facturas pendientes de pago al final del período de pago dentro del período legal."
   }, {
     "@language" : "en",
-    "@value" : "Total amount of pending invoices payable in the period."
+    "@value" : "Total amount of invoices pending payment at the end of the payment period within the legal period."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral"
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial"
+    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "amount pending invoices"
+    "@value" : "amount pending invoices within period"
   }, {
     "@language" : "es",
-    "@value" : "importe facturas pendientes"
+    "@value" : "importe facturas pendientes dentro período"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
   } ]
 }, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeInteresesDemora",
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeFacturasPendientesFueraPeriodo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Importe total de facturas pendientes de pago al final del período de pago fuera del período legal."
+  }, {
+    "@language" : "en",
+    "@value" : "Total amount of invoices pending payment at the end of the payment period outside the legal period."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "amount pending invoices outside period"
+  }, {
+    "@language" : "es",
+    "@value" : "importe facturas pendientes fuera período"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
+  } ]
+}, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeInteresesDemora",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
@@ -253,7 +279,7 @@
     "@value" : "Total amount of late payment interest paid in the period."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial"
+    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -263,7 +289,7 @@
     "@value" : "importe intereses demora"
   } ]
 }, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeOperacionesPagadas",
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPagadas",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
@@ -273,10 +299,10 @@
     "@value" : "Total amount of operations paid during the period."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual"
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensual"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial"
+    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -289,7 +315,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
   } ]
 }, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeOperacionesPendientesPago",
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPendientesPago",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
@@ -299,10 +325,10 @@
     "@value" : "Total amount of operations pending payment in the period."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual"
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensual"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial"
+    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -315,7 +341,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
   } ]
 }, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosDentroPeriodo",
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importePagosDentroPeriodo",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
@@ -325,14 +351,14 @@
     "@value" : "Total amount of payments made within the legal payment period."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral"
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial"
+    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "amount paid in period"
+    "@value" : "amount paid within period"
   }, {
     "@language" : "es",
     "@value" : "importe pagos dentro periodo"
@@ -344,7 +370,7 @@
     "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
   } ]
 }, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosFueraPeríodo",
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importePagosFueraPeríodo",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
@@ -354,10 +380,10 @@
     "@value" : "Total amount of payments made outside the legal payment period."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral"
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial"
+    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -370,33 +396,59 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
   } ]
 }, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numFacturasPendientes",
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numFacturasPendientesDentroPeriodo",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
-    "@value" : "Número total de facturas pendientes de pago en el período."
+    "@value" : "Número total de facturas pendientes de pago al final del período de pago dentro del período legal."
   }, {
     "@language" : "en",
-    "@value" : "Total number of invoices pending payment in the period."
+    "@value" : "Total number of invoices pending payment at the end of the payment period within the legal period."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral"
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial"
+    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "number pending invoices"
+    "@value" : "number pending invoices within period"
   }, {
     "@language" : "es",
-    "@value" : "número facturas pendientes"
+    "@value" : "número facturas pendientes dentro período"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
   } ]
 }, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosDentroPeriodo",
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numFacturasPendientesFueraPeriodo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Número total de facturas pendientes de pago al final del período de pago fuera del período legal."
+  }, {
+    "@language" : "en",
+    "@value" : "Total number of invoices pending payment at the end of the payment period outside the legal period."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "number pending invoices outside period"
+  }, {
+    "@language" : "es",
+    "@value" : "número facturas pendientes fuera período"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ]
+}, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosDentroPeriodo",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -406,13 +458,13 @@
     "@value" : "Número de pagos realizados dentro del período legal de pago."
   }, {
     "@language" : "en",
-    "@value" : "number payments in period"
+    "@value" : "number payments within period"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral"
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial"
+    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -422,7 +474,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
   } ]
 }, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosFueraPeríodo",
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeríodo",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -432,10 +484,10 @@
     "@value" : "Número de pagos fuera del período legal de pago."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral"
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial"
+    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -448,7 +500,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
   } ]
 }, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosInteresesDemora",
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosInteresesDemora",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -458,10 +510,10 @@
     "@value" : "Número de pagos con intereses de demora dentro del período."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral"
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial"
+    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -474,7 +526,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
   } ]
 }, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodo",
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodo",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -487,7 +539,7 @@
     "@id" : "_:genid4"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial"
+    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -500,7 +552,7 @@
     "@id" : "http://www.w3.org/2006/time#ProperInterval"
   } ]
 }, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoMensual",
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensual",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -510,10 +562,10 @@
     "@value" : "Período medio de pago  a proveedores mensual expresado en días."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual"
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensual"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial"
+    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -526,7 +578,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
   } ]
 }, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoMensualGlobal",
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensualGlobal",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -536,7 +588,7 @@
     "@value" : "Período medio de pago  a proveedores mensual global del ayuntamiento,  expresado en días."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial"
+    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -546,7 +598,7 @@
     "@value" : "período medio pago mensual global"
   } ]
 }, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoPendiente",
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoPendiente",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -556,10 +608,10 @@
     "@value" : "Período medio de pago pendiente del período expresado en días."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral"
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial"
+    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
@@ -572,7 +624,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
   } ]
 }, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoTrimestral",
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoTrimestral",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -582,7 +634,7 @@
     "@value" : "Período medio de pago  a proveedores trimestral expresado en días."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial"
+    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -592,7 +644,7 @@
     "@value" : "quaterly average payment period"
   } ]
 }, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPagadas",
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#ratioOperacionesPagadas",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
@@ -601,10 +653,10 @@
     "@value" : "Indicator of the average number of days it took to make payments in this period."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual"
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensual"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial"
+    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -617,7 +669,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
   } ]
 }, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPendientes",
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#ratioOperacionesPendientes",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
@@ -627,10 +679,10 @@
     "@value" : "indicator of the average number of days of operations pending payment at the end of the period."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual"
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensual"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial"
+    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
@@ -643,7 +695,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
   } ]
 }, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#tipoContabilidad",
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#tipoContabilidad",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -656,10 +708,10 @@
     "@value" : "Tipo de contabilidad: Empresarial o Limitativa"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral"
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial"
+    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
