@@ -3,10 +3,6 @@
     "scopeNote" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#scopeNote"
     },
-    "importeFacturasPendientes" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeFacturasPendientes",
-      "@type" : "http://www.w3.org/2001/XMLSchema#float"
-    },
     "versionInfo" : {
       "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
     },
@@ -17,7 +13,7 @@
       "@id" : "http://purl.org/dc/terms/license"
     },
     "InformeMorosidadTrimestral" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadTrimestral"
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral"
     },
     "Organization" : {
       "@id" : "http://www.w3.org/ns/org#Organization"
@@ -29,35 +25,39 @@
       "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
     },
     "periodoMedioPagoMensualGlobal" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoMensualGlobal"
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensualGlobal"
     },
     "importeOperacionesPagadas" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeOperacionesPagadas",
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPagadas",
       "@type" : "http://www.w3.org/2001/XMLSchema#float"
     },
     "numPagosFueraPeríodo" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosFueraPeríodo",
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeríodo",
       "@type" : "http://www.w3.org/2001/XMLSchema#integer"
     },
     "Instant" : {
       "@id" : "http://www.w3.org/2006/time#Instant"
     },
     "importePagosDentroPeriodo" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosDentroPeriodo",
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importePagosDentroPeriodo",
       "@type" : "http://www.w3.org/2001/XMLSchema#float"
     },
     "label" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "periodoMedioPagoTrimestral" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoTrimestral"
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoTrimestral"
     },
     "importeOperacionesPendientesPago" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeOperacionesPendientesPago",
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPendientesPago",
       "@type" : "http://www.w3.org/2001/XMLSchema#float"
     },
+    "numFacturasPendientesFueraPeriodo" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numFacturasPendientesFueraPeriodo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
     "numPagosDentroPeriodo" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosDentroPeriodo",
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosDentroPeriodo",
       "@type" : "http://www.w3.org/2001/XMLSchema#integer"
     },
     "Interval" : {
@@ -88,25 +88,29 @@
       "@type" : "@id"
     },
     "periodoMedioPagoPendiente" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoPendiente",
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoPendiente",
       "@type" : "http://www.w3.org/2001/XMLSchema#float"
     },
     "tipoContabilidad" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#tipoContabilidad",
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#tipoContabilidad",
       "@type" : "http://www.w3.org/2001/XMLSchema#string"
     },
     "identifier" : {
       "@id" : "http://www.w3.org/ns/org#identifier"
     },
     "periodo" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodo",
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodo",
       "@type" : "@id"
     },
     "ProperInterval" : {
       "@id" : "http://www.w3.org/2006/time#ProperInterval"
     },
+    "numFacturasPendientesDentroPeriodo" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numFacturasPendientesDentroPeriodo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
     "InformeMorosidadMensual" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensual"
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensual"
     },
     "preferredNamespacePrefix" : {
       "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
@@ -115,10 +119,6 @@
       "@id" : "http://www.w3.org/2006/time#inXSDgYearMonth",
       "@type" : "http://www.w3.org/2001/XMLSchema#gYearMonth"
     },
-    "numFacturasPendientes" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numFacturasPendientes",
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
-    },
     "isDefinedBy" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
     },
@@ -126,29 +126,33 @@
       "@id" : "http://www.w3.org/2004/02/skos/core#definition"
     },
     "InformeMorosidadMensualGlobal" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#InformeMorosidadMensualGlobal"
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensualGlobal"
     },
     "numPagosInteresesDemora" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#numPagosInteresesDemora",
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosInteresesDemora",
       "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "importeFacturasPendientesFueraPeriodo" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeFacturasPendientesFueraPeriodo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
     },
     "title" : {
       "@id" : "http://purl.org/dc/elements/1.1/title"
     },
     "ratioOperacionesPagadas" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPagadas",
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#ratioOperacionesPagadas",
       "@type" : "http://www.w3.org/2001/XMLSchema#float"
     },
     "importePagosFueraPeríodo" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importePagosFueraPeríodo",
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importePagosFueraPeríodo",
       "@type" : "http://www.w3.org/2001/XMLSchema#float"
     },
     "periodoMedioPagoMensual" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#periodoMedioPagoMensual",
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensual",
       "@type" : "http://www.w3.org/2001/XMLSchema#float"
     },
     "importeInteresesDemora" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#importeInteresesDemora"
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeInteresesDemora"
     },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
@@ -157,18 +161,22 @@
       "@id" : "http://purl.org/dc/elements/1.1/contributor"
     },
     "ratioOperacionesPendientes" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#ratioOperacionesPendientes",
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#ratioOperacionesPendientes",
       "@type" : "http://www.w3.org/2001/XMLSchema#float"
     },
     "hasFormat" : {
       "@id" : "http://purl.org/dc/terms/hasFormat"
     },
     "entidad" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial#entidad",
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#entidad",
       "@type" : "@id"
     },
     "preferredNamespaceUri" : {
       "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "importeFacturasPendientesDentroPeriodo" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeFacturasPendientesDentroPeriodo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
     }
   }
 }
