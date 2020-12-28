@@ -1,11 +1,11 @@
 <h2 id="crossreference" class="list">Cross reference for Vocabulary for the representation of the Economical  Public Debt of a city council. classes, properties and dataproperties <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 This section provides details for each class and property defined by Vocabulary for the representation of the Economical  Public Debt of a city council..
-<div id="classes">
+<div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="classes">
    <h3 id="classes-headline" class="list">Classes</h3>
    <ul class="hlist">
       <li>
          <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensualGlobal"
-            title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensualGlobal">Global monthly late payment</a>
+            title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensualGlobal">Global late monthly payment</a>
       </li>
       <li>
          <a href="#http://www.w3.org/2006/time#Interval" title="http://www.w3.org/2006/time#Interval">
@@ -31,7 +31,7 @@ This section provides details for each class and property defined by Vocabulary 
       </li>
    </ul>
    <div class="entity" id="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensualGlobal">
-      <h3>Global monthly late payment<sup class="type-c" title="class">c</sup>
+      <h3>Global late monthly payment<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
          </span>
       </h3>
@@ -40,6 +40,14 @@ This section provides details for each class and property defined by Vocabulary 
       <div class="comment">
          <span class="markdown">The Average Monthly Global Payment Period to Suppliers is reported monthly expressed in days.</span>
       </div>
+      <dl class="description">
+         <dt>is in domain of</dt>
+         <dd>
+            <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensualGlobal"
+               title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensualGlobal">global average monthly payment period</a>
+            <sup class="type-dp" title="data property">dp</sup>
+         </dd>
+      </dl>
    </div>
    <div class="entity" id="http://www.w3.org/2006/time#Interval">
       <h3>interval<sup class="type-c" title="class">c</sup>
@@ -82,6 +90,8 @@ This section provides details for each class and property defined by Vocabulary 
          <dd>
             <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#tipoContabilidad"
                title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#tipoContabilidad">accounting type</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeInteresesDemora"
+               title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeInteresesDemora">amount late payment interest</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importePagosDentroPeriodo"
                title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importePagosDentroPeriodo">amount paid within period</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importePagosFueraPeríodo"
@@ -100,8 +110,10 @@ This section provides details for each class and property defined by Vocabulary 
                title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numFacturasPendientesDentroPeriodo">number pending invoices within period</a>
             <sup class="type-dp" title="data property">dp</sup>, <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosDentroPeriodo"
                title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosDentroPeriodo">número pagos dentro período</a>
-            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeríodo"
-               title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeríodo">número pagos fuera período</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeriodo"
+               title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeriodo">número pagos fuera período</a>
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoTrimestral"
+               title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoTrimestral">quaterly average payment period</a>
             <sup class="type-dp" title="data property">dp</sup>
          </dd>
       </dl>
@@ -238,7 +250,7 @@ This section provides details for each class and property defined by Vocabulary 
          </dd>
       </dl>
    </div>
-</div><div id="objectproperties">
+</div><div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="objectproperties">
    <h3 id="properties" class="list">Object Properties</h3>
    <ul class="hlist">
       <li>
@@ -272,7 +284,8 @@ This section provides details for each class and property defined by Vocabulary 
       </dl>
       <div class="description">
          <p>
-            <strong>has characteristics:</strong> functional</p>
+            <strong>has characteristics:
+                </strong> functional</p>
          <dl>
             <dt>has domain</dt>
             <dd>
@@ -382,7 +395,8 @@ This section provides details for each class and property defined by Vocabulary 
       </dl>
       <div class="description">
          <p>
-            <strong>has characteristics:</strong> functional</p>
+            <strong>has characteristics:
+                </strong> functional</p>
          <dl>
             <dt>has domain</dt>
             <dd>
@@ -402,7 +416,7 @@ This section provides details for each class and property defined by Vocabulary 
          </dl>
       </div>
    </div>
-</div><div id="dataproperties">
+</div><div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="dataproperties">
    <h3 id="dataproperties-headline" class="list">Data Properties</h3>
    <ul class="hlist">
       <li>
@@ -447,7 +461,7 @@ This section provides details for each class and property defined by Vocabulary 
       </li>
       <li>
          <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensualGlobal"
-            title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensualGlobal">global monthly average payment period</a>
+            title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensualGlobal">global average monthly payment period</a>
       </li>
       <li>
          <a href="#http://www.w3.org/ns/org#identifier" title="http://www.w3.org/ns/org#identifier">identifier</a>
@@ -472,8 +486,8 @@ This section provides details for each class and property defined by Vocabulary 
             title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosDentroPeriodo">número pagos dentro período</a>
       </li>
       <li>
-         <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeríodo"
-            title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeríodo">número pagos fuera período</a>
+         <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeriodo"
+            title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeriodo">número pagos fuera período</a>
       </li>
       <li>
          <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoTrimestral"
@@ -504,7 +518,8 @@ This section provides details for each class and property defined by Vocabulary 
       </dl>
       <div class="description">
          <p>
-            <strong>has characteristics:</strong> functional</p>
+            <strong>has characteristics:
+                </strong> functional</p>
          <dl>
             <dt>has domain</dt>
             <dd>
@@ -535,6 +550,25 @@ This section provides details for each class and property defined by Vocabulary 
          <dt>Is defined by</dt>
          <dd>http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial</dd>
       </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral"
+                  title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral">Late payment quarterly report</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </dd>
+         </dl>
+      </div>
    </div>
    <div class="entity" id="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPendientesPago">
       <h3>amount operations pending payment<sup class="type-dp" title="data property">dp</sup>
@@ -552,7 +586,8 @@ This section provides details for each class and property defined by Vocabulary 
       </dl>
       <div class="description">
          <p>
-            <strong>has characteristics:</strong> functional</p>
+            <strong>has characteristics:
+                </strong> functional</p>
          <dl>
             <dt>has domain</dt>
             <dd>
@@ -585,7 +620,8 @@ This section provides details for each class and property defined by Vocabulary 
       </dl>
       <div class="description">
          <p>
-            <strong>has characteristics:</strong> functional</p>
+            <strong>has characteristics:
+                </strong> functional</p>
          <dl>
             <dt>has domain</dt>
             <dd>
@@ -618,7 +654,8 @@ This section provides details for each class and property defined by Vocabulary 
       </dl>
       <div class="description">
          <p>
-            <strong>has characteristics:</strong> functional</p>
+            <strong>has characteristics:
+                </strong> functional</p>
          <dl>
             <dt>has super-properties</dt>
             <dd>
@@ -657,7 +694,8 @@ This section provides details for each class and property defined by Vocabulary 
       </dl>
       <div class="description">
          <p>
-            <strong>has characteristics:</strong> functional</p>
+            <strong>has characteristics:
+                </strong> functional</p>
          <dl>
             <dt>has domain</dt>
             <dd>
@@ -690,7 +728,8 @@ This section provides details for each class and property defined by Vocabulary 
       </dl>
       <div class="description">
          <p>
-            <strong>has characteristics:</strong> functional</p>
+            <strong>has characteristics:
+                </strong> functional</p>
          <dl>
             <dt>has domain</dt>
             <dd>
@@ -723,7 +762,8 @@ This section provides details for each class and property defined by Vocabulary 
       </dl>
       <div class="description">
          <p>
-            <strong>has characteristics:</strong> functional</p>
+            <strong>has characteristics:
+                </strong> functional</p>
          <dl>
             <dt>has domain</dt>
             <dd>
@@ -756,7 +796,8 @@ This section provides details for each class and property defined by Vocabulary 
       </dl>
       <div class="description">
          <p>
-            <strong>has characteristics:</strong> functional</p>
+            <strong>has characteristics:
+                </strong> functional</p>
          <dl>
             <dt>has domain</dt>
             <dd>
@@ -789,7 +830,8 @@ This section provides details for each class and property defined by Vocabulary 
       </dl>
       <div class="description">
          <p>
-            <strong>has characteristics:</strong> functional</p>
+            <strong>has characteristics:
+                </strong> functional</p>
          <dl>
             <dt>has domain</dt>
             <dd>
@@ -807,7 +849,7 @@ This section provides details for each class and property defined by Vocabulary 
       </div>
    </div>
    <div class="entity" id="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensualGlobal">
-      <h3>global monthly average payment period<sup class="type-dp" title="data property">dp</sup>
+      <h3>global average monthly payment period<sup class="type-dp" title="data property">dp</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
          </span>
       </h3>
@@ -820,6 +862,22 @@ This section provides details for each class and property defined by Vocabulary 
          <dt>Is defined by</dt>
          <dd>http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial</dd>
       </dl>
+      <div class="description">
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensualGlobal"
+                  title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensualGlobal">Global late monthly payment</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </dd>
+         </dl>
+      </div>
    </div>
    <div class="entity" id="http://www.w3.org/ns/org#identifier">
       <h3>identifier<sup class="type-dp" title="data property">dp</sup>
@@ -899,7 +957,8 @@ This section provides details for each class and property defined by Vocabulary 
       </dl>
       <div class="description">
          <p>
-            <strong>has characteristics:</strong> functional</p>
+            <strong>has characteristics:
+                </strong> functional</p>
          <dl>
             <dt>has domain</dt>
             <dd>
@@ -932,7 +991,8 @@ This section provides details for each class and property defined by Vocabulary 
       </dl>
       <div class="description">
          <p>
-            <strong>has characteristics:</strong> functional</p>
+            <strong>has characteristics:
+                </strong> functional</p>
          <dl>
             <dt>has domain</dt>
             <dd>
@@ -965,7 +1025,8 @@ This section provides details for each class and property defined by Vocabulary 
       </dl>
       <div class="description">
          <p>
-            <strong>has characteristics:</strong> functional</p>
+            <strong>has characteristics:
+                </strong> functional</p>
          <dl>
             <dt>has domain</dt>
             <dd>
@@ -998,7 +1059,8 @@ This section provides details for each class and property defined by Vocabulary 
       </dl>
       <div class="description">
          <p>
-            <strong>has characteristics:</strong> functional</p>
+            <strong>has characteristics:
+                </strong> functional</p>
          <dl>
             <dt>has domain</dt>
             <dd>
@@ -1015,13 +1077,13 @@ This section provides details for each class and property defined by Vocabulary 
          </dl>
       </div>
    </div>
-   <div class="entity" id="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeríodo">
+   <div class="entity" id="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeriodo">
       <h3>número pagos fuera período<sup class="type-dp" title="data property">dp</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#dataproperties">Data Property ToC</a>
          </span>
       </h3>
       <p>
-         <strong>IRI:</strong> http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeríodo</p>
+         <strong>IRI:</strong> http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeriodo</p>
       <div class="comment">
          <span class="markdown">Number of payments outside the legal payment period.</span>
       </div>
@@ -1031,7 +1093,8 @@ This section provides details for each class and property defined by Vocabulary 
       </dl>
       <div class="description">
          <p>
-            <strong>has characteristics:</strong> functional</p>
+            <strong>has characteristics:
+                </strong> functional</p>
          <dl>
             <dt>has domain</dt>
             <dd>
@@ -1062,6 +1125,25 @@ This section provides details for each class and property defined by Vocabulary 
          <dt>Is defined by</dt>
          <dd>http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial</dd>
       </dl>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> functional</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral"
+                  title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral">Late payment quarterly report</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="http://www.w3.org/2001/XMLSchema#float"
+                  target="_blank"
+                  title="http://www.w3.org/2001/XMLSchema#float">float</a>
+            </dd>
+         </dl>
+      </div>
    </div>
    <div class="entity" id="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#ratioOperacionesPagadas">
       <h3>ratio paid operations<sup class="type-dp" title="data property">dp</sup>
@@ -1079,7 +1161,8 @@ This section provides details for each class and property defined by Vocabulary 
       </dl>
       <div class="description">
          <p>
-            <strong>has characteristics:</strong> functional</p>
+            <strong>has characteristics:
+                </strong> functional</p>
          <dl>
             <dt>has domain</dt>
             <dd>
@@ -1112,7 +1195,8 @@ This section provides details for each class and property defined by Vocabulary 
       </dl>
       <div class="description">
          <p>
-            <strong>has characteristics:</strong> functional</p>
+            <strong>has characteristics:
+                </strong> functional</p>
          <dl>
             <dt>has domain</dt>
             <dd>

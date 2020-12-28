@@ -25,15 +25,12 @@
       "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
     },
     "periodoMedioPagoMensualGlobal" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensualGlobal"
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensualGlobal",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
     },
     "importeOperacionesPagadas" : {
       "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPagadas",
       "@type" : "http://www.w3.org/2001/XMLSchema#float"
-    },
-    "numPagosFueraPeríodo" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeríodo",
-      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
     },
     "Instant" : {
       "@id" : "http://www.w3.org/2006/time#Instant"
@@ -46,7 +43,8 @@
       "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
     },
     "periodoMedioPagoTrimestral" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoTrimestral"
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoTrimestral",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
     },
     "importeOperacionesPendientesPago" : {
       "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPendientesPago",
@@ -79,6 +77,10 @@
     "hasEnd" : {
       "@id" : "http://www.w3.org/2006/time#hasEnd",
       "@type" : "@id"
+    },
+    "numPagosFueraPeriodo" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeriodo",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
     },
     "TemporalEntity" : {
       "@id" : "http://www.w3.org/2006/time#TemporalEntity"
@@ -152,7 +154,8 @@
       "@type" : "http://www.w3.org/2001/XMLSchema#float"
     },
     "importeInteresesDemora" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeInteresesDemora"
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeInteresesDemora",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
     },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
