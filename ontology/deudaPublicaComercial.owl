@@ -486,7 +486,7 @@
         <rdfs:comment xml:lang="en">Global average monthly payment period to suppliers expressed in days.</rdfs:comment>
         <rdfs:comment xml:lang="en">Período medio de pago  a proveedores mensual global del ayuntamiento,  expresado en días.</rdfs:comment>
         <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">global monthly average payment period</rdfs:label>
+        <rdfs:label xml:lang="en">global average monthly payment period</rdfs:label>
         <rdfs:label xml:lang="es">período medio pago mensual global</rdfs:label>
     </owl:DatatypeProperty>
     
