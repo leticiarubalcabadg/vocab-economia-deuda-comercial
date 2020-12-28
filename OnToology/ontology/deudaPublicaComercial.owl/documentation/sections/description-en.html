@@ -1,4 +1,94 @@
-<h2 id="desc" class="list">Vocabulary for the representation of the Economical  Public Debt of a city council.: Description <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
+<h2 id="desc" class="list">Vocabulary for the Representation of the Commercial Public Debt of a City Council: Description <span class="backlink"> back to <a href="#toc">index</a></span></h2>
+<span class="markdown">Figure 1 shows the classes and properties of the vocabulary that represents the commercial public debt of a city council:</span>
+<center><img src="resources/images/modeloConceptual.png"><figcaption>Figure 1. - Conceptual model for the representation of the information of the commercial public debt</figcaption>
+</center>
+    <br>
+  <span class="markdown">
+In this vocabulary there are casses to represent the late payment quarterly report
+[esdeucom:InformeMorosidadTrimestral](#InformeMorosidadTrimestral) and the late payment monthly report [esdeucom:InformeMorosidadMensual](#InformeMorosidadMensual). The properties of these two clases correspond to the fields of each of these reports. Some of these fields are the monthly average payment period [esdeucom:periodoMedioPagoMensual](#periodoMedioPagoMensual) or monthly PMP and the quarterly average payment period [esdeucom:periodoMedioPagoTrimestral](#periodoMedioPagoTrimestral) or quarterly PMP. The monthly and quarterly late payment reports cover a certain period [esdeucom:periodo](#periodo) in a way that is possible to represent the late payment reports of several months or quarters and thus, be able to make comparative analysis on the commercial debt of a city council over time. Besides this, the monthly PMP is computed globally for the city council and is represented through the property [esdeucom:periodoMedioPagoMensualGlobal](#periodoMedioPagoMensualGlobal) in the class [esdeucom:InformeMorosidadMensualGlobal](#InformeMorosidadMensualGlobal). In order to represent the period we have reused the 
+[time](https://www.w3.org/TR/owl-time/) ontology, specifically the classes s[time:ProperInterval](#http://www.w3.org/2006/time#ProperInterval) and [time:Instant](#http://www.w3.org/2006/time#Instant) to represent the beginning and end of a period. The late payment reports are made for the local entity as well as for its depending entities.
+The local entity and its dependent entities are represented with the class  [org:Organization](https://www.w3.org/TR/vocab-org/#class-organization) from the  [Organization](https://www.w3.org/TR/vocab-org/) ontology.
+</span>
+<h3>3.1 Examples<span class="backlink"> back to <a href="#toc">index</a></span></h3>
+  <span class="markdown">
+  In order to facilitate the comprehension of the use of some classes and properties of this vocabulary, some examples will be provided below.
+      
+  The first example refers to the quaterly late payment report of a dependent entity of the Madrid City Council, specifically we show the report for the Madrid Municipal Transport Agency at the end of the fourth quarter, 2019. 
+</span>
+<pre>
+&lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/informe-morosidad-trimestral/2019-cuarto-12-28-079-AP-001&gt; 
+        a esdeucom:InformeMorosidadTrimestral;
+        esdeucom:entidad  &lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/organizacion/12-28-079-AP-001&gt;;
+        esdeucom:periodo &lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/intervalo-tiempo/2019-cuarto-trimestre&gt;;
+        esdeucom:periodoMedioPagoTrimestral "55.50"^^xsd:float ;
+        esdeucom:numPagosDentroPeriodo "6472"^^xsd:integer ;
+        esdeucom:importePagosDentroPeriodo "51831754.13"^^xsd:float ;
+        esdeucom:numPagosFueraPeriodo "1124"^^xsd:integer ;
+        esdeucom:importePagosFueraPeriodo "5579630.33"^^xsd:float ;
+        esdeucom:numPagosInteresesDemora "0"^^xsd:integer ;
+        esdeucom:importePagosInteresesDemora "0.0^^xsd:float ;
+        esdeucom:periodoMedioPagoPendiente "33.87^^xsd:float ;
+        esdeucom:numFacturasPendientesDentroPeriodo "3020"^^xsd:integer ;
+        esdeucom:importeFacturasPendientesDentroPeriodo "34441734.41^^xsd:float ;
+        esdeucom:numFacturasPendientesFueraPeriodo "25"^^xsd:integer ;
+        esdeucom:importeFacturasPendientesFueraPeriodo "489769.85^^xsd:float ;
+        esdeucom:tipoContabilidad "empresarial"^^xsd:string .
+        
+&lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/organizacion/12-28-079-AP-001&gt; 
+        a org:Organization;
+        org:identifier "12-28-079-AP-001"^^xsd:string;
+        foaf:name "E.M.T. Madrid"^^xsd:string;.
+        
+&lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/intervalo-tiempo/2019-cuarto-trimestre&gt; 
+        a time:ProperInterval;
+        time:hasBeginning   [ a                        time:Instant ;
+                              time:inXSDDate  "2019-10-01^^xsd:date
+                            ] ;
+        time:hasEnd         [ a                        time:Instant ;
+                              time:inXSDDate  "2019-12-31^^xsd:date
+                            ] .
+</pre>
+
 <span class="markdown">
-This is a placeholder text for the description of your ontology. The description should include an explanation and a diagram explaining how the classes are related, examples of usage, etc.</span>
+ Similarly, we can represent the monthly late payment report of a city council or of one of its depending entities. We show the report for the Zaragoza Municipal Employment Institute at the end of June, 2020. 
+</span>
+<pre>
+&lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/informe-morosidad-mensual/02-50-297-AO-005&gt; 
+        a esdeucom:InformeMorosidadMensual;
+        esdeucom:entidad  &lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/organizacion/02-50-297-AO-005&gt;;
+        esdeucom:periodo &lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/intervalo-tiempo/2020-06 &gt;;
+        esdeucom:periodoMedioPagoMensual "18.72^^xsd:float ;
+        esdeucom:ratioOperacionesPagadas "18.51"^^xsd:float ;
+        esdeucom:ratioOperacionesPendientesPago "24.23"^^xsd:float .
+        
+&lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/organizacion/02-50-297-AO-005&gt; 
+        a org:Organization;
+        org:identifier "02-50-297-AO-005"^^xsd:string;
+        foaf:name "Inst. M. Empleo y Fomento Empresarial"^^xsd:string;.
+        
+&lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/intervalo-tiempo/2020-06&gt; 
+        a time:ProperInterval;
+        time:hasBeginning   [ a                        time:Instant ;
+                              time:inXSDDate  "2020-06-01^^xsd:date
+                            ] ;
+        time:hasEnd         [ a                        time:Instant ;
+                              time:inXSDDate  "2020-06-30^^xsd:date
+                            ] . 
+</pre>
+<span class="markdown">Next, we illustrate the Zaragoza monthly global PMP at the end of June, 2020:
+</span>
+<pre>
+&lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/informe-morosidad-mensual-global/2020-06-zaragoza&gt; 
+        a esdeucom:InformeMorosidadMensualGlobal;
+        esdeucom:periodo &lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/intervalo-tiempo/2020-06 &gt;;
+        esdeucom:periodoMedioPagoMensualGlobal "27.04^^xsd:float ;       
+&lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/intervalo-tiempo/2020-06&gt; 
+        a time:ProperInterval;
+        time:hasBeginning   [ a                        time:Instant ;
+                              time:inXSDDate  "2020-06-01^^xsd:date
+                            ] ;
+        time:hasEnd         [ a                        time:Instant ;
+                              time:inXSDDate  "2020-06-30^^xsd:date
+                            ] . 
+</pre>
 
