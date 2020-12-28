@@ -99,7 +99,7 @@
     "@value" : "Vocabulario para la representación de la información de la Deuda Pública Comercial de un ayuntamiento."
   }, {
     "@language" : "en",
-    "@value" : "Vocabulary for the representation of the Economical  Public Debt of a city council."
+    "@value" : "Vocabulary for the representation of the Commercial Public Debt of a city council."
   } ],
   "http://purl.org/dc/terms/creator" : [ {
     "@value" : "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)"
@@ -155,7 +155,7 @@
     "@value" : "Informe morosidad mensual"
   }, {
     "@language" : "en",
-    "@value" : "Late payment report"
+    "@value" : "Monthly late payment report"
   } ]
 }, {
   "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensualGlobal",
@@ -169,7 +169,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "Global late monthly payment"
+    "@value" : "Global monthly late payment report"
   }, {
     "@language" : "es",
     "@value" : "Informe morosidad mensual global"
@@ -194,7 +194,7 @@
     "@value" : "Informe morosidad trimestral"
   }, {
     "@language" : "en",
-    "@value" : "Late payment quarterly report"
+    "@value" : "Quarterly late payment report"
   } ]
 }, {
   "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#entidad",
@@ -502,7 +502,7 @@
     "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "es",
+    "@language" : "en",
     "@value" : "number payments outside period"
   }, {
     "@language" : "es",
@@ -580,11 +580,11 @@
     "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Average monthly payment period"
-  }, {
     "@language" : "es",
     "@value" : "Período medio pago mensual"
+  }, {
+    "@language" : "en",
+    "@value" : "monthly average payment period"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
@@ -607,7 +607,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "global average monthly payment period"
+    "@value" : "global monthly average payment period"
   }, {
     "@language" : "es",
     "@value" : "período medio pago mensual global"
@@ -633,7 +633,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "average period pending payment"
+    "@value" : "average pending payment period"
   }, {
     "@language" : "es",
     "@value" : "período medio pago pendiente"

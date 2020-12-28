@@ -28,7 +28,7 @@
         <dc:creator>Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, Localidata)</dc:creator>
         <dc:identifier xml:lang="es">http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial</dc:identifier>
         <dc:title xml:lang="es">Vocabulario para la representación de la información de la Deuda Pública Comercial de un ayuntamiento.</dc:title>
-        <dc:title xml:lang="en">Vocabulary for the representation of the Economical  Public Debt of a city council.</dc:title>
+        <dc:title xml:lang="en">Vocabulary for the representation of the Commercial Public Debt of a city council.</dc:title>
         <terms:creator>Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)</terms:creator>
         <terms:hasFormat xml:lang="es">http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial.owl</terms:hasFormat>
         <terms:issued xml:lang="es">2020-05-20</terms:issued>
@@ -482,7 +482,7 @@
         <rdfs:comment xml:lang="en">Number of payments outside the legal payment period.</rdfs:comment>
         <rdfs:comment xml:lang="es">Número de pagos fuera del período legal de pago.</rdfs:comment>
         <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="es">number payments outside period</rdfs:label>
+        <rdfs:label xml:lang="en">number payments outside period</rdfs:label>
         <rdfs:label xml:lang="es">número pagos fuera período</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -514,8 +514,8 @@
         <rdfs:comment xml:lang="en">Average period of  payment to suppliers monthly.</rdfs:comment>
         <rdfs:comment xml:lang="es">Período medio de pago  a proveedores mensual expresado en días.</rdfs:comment>
         <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">Average monthly payment period</rdfs:label>
         <rdfs:label xml:lang="es">Período medio pago mensual</rdfs:label>
+        <rdfs:label xml:lang="en">monthly average payment period</rdfs:label>
     </owl:DatatypeProperty>
     
 
@@ -529,7 +529,7 @@
         <rdfs:comment xml:lang="en">Global average monthly payment period to suppliers expressed in days.</rdfs:comment>
         <rdfs:comment xml:lang="en">Período medio de pago  a proveedores mensual global del ayuntamiento,  expresado en días.</rdfs:comment>
         <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">global average monthly payment period</rdfs:label>
+        <rdfs:label xml:lang="en">global monthly average payment period</rdfs:label>
         <rdfs:label xml:lang="es">período medio pago mensual global</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -545,7 +545,7 @@
         <rdfs:comment xml:lang="en">Average pending payment period expressed in days.</rdfs:comment>
         <rdfs:comment xml:lang="es">Período medio de pago pendiente del período expresado en días.</rdfs:comment>
         <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">average period pending payment</rdfs:label>
+        <rdfs:label xml:lang="en">average pending payment period</rdfs:label>
         <rdfs:label xml:lang="es">período medio pago pendiente</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -680,7 +680,7 @@ pendientes de pago al final del período.</rdfs:comment>
         <rdfs:comment xml:lang="en">Monthly, the municipality and its dependent entities report the Average Period of Payment to Suppliers PMP) expressed in days. All municipalities are obliged to communicate the monthly PMP to the Ministry of Finance in the terms defined by Royal Decree 635/2014.</rdfs:comment>
         <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial</rdfs:isDefinedBy>
         <rdfs:label xml:lang="es">Informe morosidad mensual</rdfs:label>
-        <rdfs:label xml:lang="en">Late payment report</rdfs:label>
+        <rdfs:label xml:lang="en">Monthly late payment report</rdfs:label>
     </owl:Class>
     
 
@@ -691,7 +691,7 @@ pendientes de pago al final del período.</rdfs:comment>
     <owl:Class rdf:about="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensualGlobal">
         <rdfs:comment xml:lang="es">Mensualmente se reporta el Periodo Medio de Pago Global a Proveedores Mensual expresado en días.</rdfs:comment>
         <rdfs:comment xml:lang="en">The Average Monthly Global Payment Period to Suppliers is reported monthly expressed in days.</rdfs:comment>
-        <rdfs:label xml:lang="en">Global late monthly payment</rdfs:label>
+        <rdfs:label xml:lang="en">Global monthly late payment report</rdfs:label>
         <rdfs:label xml:lang="es">Informe morosidad mensual global</rdfs:label>
     </owl:Class>
     
@@ -706,7 +706,7 @@ pendientes de pago al final del período.</rdfs:comment>
         <rdfs:comment>Quarterly the municipality and its dependent entities report the Average Period of Payment to Suppliers expressed in days.</rdfs:comment>
         <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial</rdfs:isDefinedBy>
         <rdfs:label xml:lang="es">Informe morosidad trimestral</rdfs:label>
-        <rdfs:label xml:lang="en">Late payment quarterly report</rdfs:label>
+        <rdfs:label xml:lang="en">Quarterly late payment report</rdfs:label>
     </owl:Class>
     
 
