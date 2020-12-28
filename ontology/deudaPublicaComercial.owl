@@ -14,7 +14,9 @@
      xmlns:esdeucom="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#">
     <owl:Ontology rdf:about="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial">
         <owl:versionIRI rdf:resource="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial/1.0.0"/>
+        <dc:contributor xml:lang="es">Carmen Hervás Bautista - Ayuntamiento de Madrid</dc:contributor>
         <dc:contributor xml:lang="es">Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid</dc:contributor>
+        <dc:contributor xml:lang="es">Manuel Alejandro Pose Pose - Ayuntamiento de A Coruña</dc:contributor>
         <dc:contributor xml:lang="es">María Carmen Ruiz Moreno - Ayuntamiento de Madrid</dc:contributor>
         <dc:contributor xml:lang="es">María Jesús Fernández Ruiz - Ayuntamiento de Zaragoza</dc:contributor>
         <dc:contributor xml:lang="es">María Jesús Gallego San Miguel - Ayuntamiento de Madrid</dc:contributor>
@@ -443,7 +445,7 @@
         <rdfs:comment xml:lang="es">Número de pagos fuera del período legal de pago.</rdfs:comment>
         <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial</rdfs:isDefinedBy>
         <rdfs:label xml:lang="es">number payments outside period</rdfs:label>
-        <rdfs:label xml:lang="en">número pagos fuera período</rdfs:label>
+        <rdfs:label xml:lang="es">número pagos fuera período</rdfs:label>
     </owl:DatatypeProperty>
     
 
