@@ -214,6 +214,8 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
 ###  http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeInteresesDemora
 :importeInteresesDemora rdf:type owl:DatatypeProperty ,
                                  owl:FunctionalProperty ;
+                        rdfs:domain :InformeMorosidadTrimestral ;
+                        rdfs:range xsd:float ;
                         rdfs:comment "Importe total de intereses de demora pagados en el período."@es ,
                                      "Total amount of late payment interest paid in the period."@en ;
                         rdfs:isDefinedBy "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" ;
@@ -306,8 +308,8 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                        rdfs:label "número pagos dentro período"@es .
 
 
-###  http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeríodo
-:numPagosFueraPeríodo rdf:type owl:DatatypeProperty ,
+###  http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeriodo
+:numPagosFueraPeriodo rdf:type owl:DatatypeProperty ,
                                owl:FunctionalProperty ;
                       rdfs:domain :InformeMorosidadTrimestral ;
                       rdfs:range xsd:integer ;
@@ -344,10 +346,12 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
 
 ###  http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensualGlobal
 :periodoMedioPagoMensualGlobal rdf:type owl:DatatypeProperty ;
+                               rdfs:domain :InformeMorosidadMensualGlobal ;
+                               rdfs:range xsd:float ;
                                rdfs:comment "Global average monthly payment period to suppliers expressed in days."@en ,
                                             "Período medio de pago  a proveedores mensual global del ayuntamiento,  expresado en días."@en ;
                                rdfs:isDefinedBy "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" ;
-                               rdfs:label "global monthly average payment period"@en ,
+                               rdfs:label "global average monthly payment period"@en ,
                                           "período medio pago mensual global"@es .
 
 
@@ -366,6 +370,8 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
 ###  http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoTrimestral
 :periodoMedioPagoTrimestral rdf:type owl:DatatypeProperty ,
                                      owl:FunctionalProperty ;
+                            rdfs:domain :InformeMorosidadTrimestral ;
+                            rdfs:range xsd:float ;
                             rdfs:comment "Average period of  payment to suppliers, quaterly."@en ,
                                          "Período medio de pago  a proveedores trimestral expresado en días."@es ;
                             rdfs:isDefinedBy "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" ;
@@ -460,7 +466,7 @@ pendientes de pago al final del período."""@es ,
 :InformeMorosidadMensualGlobal rdf:type owl:Class ;
                                rdfs:comment "Mensualmente se reporta el Periodo Medio de Pago Global a Proveedores Mensual expresado en días."@es ,
                                             "The Average Monthly Global Payment Period to Suppliers is reported monthly expressed in days."@en ;
-                               rdfs:label "Global monthly late payment"@en ,
+                               rdfs:label "Global late monthly payment"@en ,
                                           "Informe morosidad mensual global"@es .
 
 

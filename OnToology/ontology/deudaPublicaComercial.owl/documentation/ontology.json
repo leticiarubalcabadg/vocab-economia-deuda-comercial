@@ -163,7 +163,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "Global monthly late payment"
+    "@value" : "Global late monthly payment"
   }, {
     "@language" : "es",
     "@value" : "Informe morosidad mensual global"
@@ -278,6 +278,9 @@
     "@language" : "en",
     "@value" : "Total amount of late payment interest paid in the period."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
@@ -287,6 +290,9 @@
   }, {
     "@language" : "es",
     "@value" : "importe intereses demora"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
   } ]
 }, {
   "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPagadas",
@@ -474,7 +480,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
   } ]
 }, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeríodo",
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeriodo",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -587,15 +593,21 @@
     "@language" : "en",
     "@value" : "Período medio de pago  a proveedores mensual global del ayuntamiento,  expresado en días."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensualGlobal"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "global monthly average payment period"
+    "@value" : "global average monthly payment period"
   }, {
     "@language" : "es",
     "@value" : "período medio pago mensual global"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
   } ]
 }, {
   "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoPendiente",
@@ -633,6 +645,9 @@
     "@language" : "es",
     "@value" : "Período medio de pago  a proveedores trimestral expresado en días."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
@@ -642,6 +657,9 @@
   }, {
     "@language" : "en",
     "@value" : "quaterly average payment period"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
   } ]
 }, {
   "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#ratioOperacionesPagadas",
