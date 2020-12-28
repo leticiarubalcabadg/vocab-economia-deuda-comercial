@@ -1,6 +1,8 @@
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial> <http://www.w3.org/2002/07/owl#versionIRI> <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial/1.0.0> .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial> <http://purl.org/dc/elements/1.1/contributor> "Carmen Hervás Bautista - Ayuntamiento de Madrid"@es .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial> <http://purl.org/dc/elements/1.1/contributor> "Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid"@es .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial> <http://purl.org/dc/elements/1.1/contributor> "Manuel Alejandro Pose Pose - Ayuntamiento de A Coruña"@es .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial> <http://purl.org/dc/elements/1.1/contributor> "María Carmen Ruiz Moreno - Ayuntamiento de Madrid"@es .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial> <http://purl.org/dc/elements/1.1/contributor> "María Jesús Fernández Ruiz - Ayuntamiento de Zaragoza"@es .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial> <http://purl.org/dc/elements/1.1/contributor> "María Jesús Gallego San Miguel - Ayuntamiento de Madrid"@es .
@@ -13,7 +15,7 @@
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial> <http://purl.org/dc/elements/1.1/creator> "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, Localidata)" .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial> <http://purl.org/dc/elements/1.1/identifier> "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"@es .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial> <http://purl.org/dc/elements/1.1/title> "Vocabulario para la representación de la información de la Deuda Pública Comercial de un ayuntamiento."@es .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial> <http://purl.org/dc/elements/1.1/title> "Vocabulary for the representation of the Economical  Public Debt of a city council."@en .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial> <http://purl.org/dc/elements/1.1/title> "Vocabulary for the representation of the Commercial Public Debt of a city council."@en .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial> <http://purl.org/dc/terms/creator> "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)" .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial> <http://purl.org/dc/terms/hasFormat> "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial.owl"@es .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial> <http://purl.org/dc/terms/issued> "2020-05-20"@es .
@@ -207,6 +209,8 @@ _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 # http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeInteresesDemora
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeInteresesDemora> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeInteresesDemora> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral> .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#comment> "Importe total de intereses de demora pagados en el período."@es .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#comment> "Total amount of late payment interest paid in the period."@en .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" .
@@ -291,16 +295,16 @@ _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosDentroPeriodo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosDentroPeriodo> <http://www.w3.org/2000/01/rdf-schema#label> "número pagos dentro período"@es .
 # 
-# http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeríodo
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPer\u00EDodo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPer\u00EDodo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPer\u00EDodo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral> .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPer\u00EDodo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPer\u00EDodo> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of payments outside the legal payment period."@en .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPer\u00EDodo> <http://www.w3.org/2000/01/rdf-schema#comment> "Número de pagos fuera del período legal de pago."@es .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPer\u00EDodo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPer\u00EDodo> <http://www.w3.org/2000/01/rdf-schema#label> "number payments outside period"@es .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPer\u00EDodo> <http://www.w3.org/2000/01/rdf-schema#label> "número pagos fuera período"@en .
+# http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeriodo
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeriodo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeriodo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeriodo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral> .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeriodo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeriodo> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of payments outside the legal payment period."@en .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeriodo> <http://www.w3.org/2000/01/rdf-schema#comment> "Número de pagos fuera del período legal de pago."@es .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeriodo> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeriodo> <http://www.w3.org/2000/01/rdf-schema#label> "number payments outside period"@en .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeriodo> <http://www.w3.org/2000/01/rdf-schema#label> "número pagos fuera período"@es .
 # 
 # http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosInteresesDemora
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -321,11 +325,13 @@ _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensual> <http://www.w3.org/2000/01/rdf-schema#comment> "Average period of  payment to suppliers monthly."@en .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensual> <http://www.w3.org/2000/01/rdf-schema#comment> "Período medio de pago  a proveedores mensual expresado en días."@es .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensual> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensual> <http://www.w3.org/2000/01/rdf-schema#label> "Average monthly payment period"@en .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensual> <http://www.w3.org/2000/01/rdf-schema#label> "Período medio pago mensual"@es .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensual> <http://www.w3.org/2000/01/rdf-schema#label> "monthly average payment period"@en .
 # 
 # http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensualGlobal
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensualGlobal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensualGlobal> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensualGlobal> .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensualGlobal> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensualGlobal> <http://www.w3.org/2000/01/rdf-schema#comment> "Global average monthly payment period to suppliers expressed in days."@en .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensualGlobal> <http://www.w3.org/2000/01/rdf-schema#comment> "Período medio de pago  a proveedores mensual global del ayuntamiento,  expresado en días."@en .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensualGlobal> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" .
@@ -340,12 +346,14 @@ _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoPendiente> <http://www.w3.org/2000/01/rdf-schema#comment> "Average pending payment period expressed in days."@en .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoPendiente> <http://www.w3.org/2000/01/rdf-schema#comment> "Período medio de pago pendiente del período expresado en días."@es .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoPendiente> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoPendiente> <http://www.w3.org/2000/01/rdf-schema#label> "average period pending payment"@en .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoPendiente> <http://www.w3.org/2000/01/rdf-schema#label> "average pending payment period"@en .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoPendiente> <http://www.w3.org/2000/01/rdf-schema#label> "período medio pago pendiente"@es .
 # 
 # http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoTrimestral
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoTrimestral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoTrimestral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoTrimestral> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral> .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoTrimestral> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoTrimestral> <http://www.w3.org/2000/01/rdf-schema#comment> "Average period of  payment to suppliers, quaterly."@en .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoTrimestral> <http://www.w3.org/2000/01/rdf-schema#comment> "Período medio de pago  a proveedores trimestral expresado en días."@es .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoTrimestral> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" .
@@ -430,13 +438,13 @@ _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensual> <http://www.w3.org/2000/01/rdf-schema#comment> "Monthly, the municipality and its dependent entities report the Average Period of Payment to Suppliers PMP) expressed in days. All municipalities are obliged to communicate the monthly PMP to the Ministry of Finance in the terms defined by Royal Decree 635/2014."@en .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensual> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensual> <http://www.w3.org/2000/01/rdf-schema#label> "Informe morosidad mensual"@es .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensual> <http://www.w3.org/2000/01/rdf-schema#label> "Late payment report"@en .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensual> <http://www.w3.org/2000/01/rdf-schema#label> "Monthly late payment report"@en .
 # 
 # http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensualGlobal
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensualGlobal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensualGlobal> <http://www.w3.org/2000/01/rdf-schema#comment> "Mensualmente se reporta el Periodo Medio de Pago Global a Proveedores Mensual expresado en días."@es .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensualGlobal> <http://www.w3.org/2000/01/rdf-schema#comment> "The Average Monthly Global Payment Period to Suppliers is reported monthly expressed in days."@en .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensualGlobal> <http://www.w3.org/2000/01/rdf-schema#label> "Global monthly late payment"@en .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensualGlobal> <http://www.w3.org/2000/01/rdf-schema#label> "Global monthly late payment report"@en .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensualGlobal> <http://www.w3.org/2000/01/rdf-schema#label> "Informe morosidad mensual global"@es .
 # 
 # http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral
@@ -446,7 +454,7 @@ _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral> <http://www.w3.org/2000/01/rdf-schema#comment> "Quarterly the municipality and its dependent entities report the Average Period of Payment to Suppliers expressed in days." .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral> <http://www.w3.org/2000/01/rdf-schema#label> "Informe morosidad trimestral"@es .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral> <http://www.w3.org/2000/01/rdf-schema#label> "Late payment quarterly report"@en .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral> <http://www.w3.org/2000/01/rdf-schema#label> "Quarterly late payment report"@en .
 # 
 # http://www.w3.org/2006/time#Instant
 <http://www.w3.org/2006/time#Instant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

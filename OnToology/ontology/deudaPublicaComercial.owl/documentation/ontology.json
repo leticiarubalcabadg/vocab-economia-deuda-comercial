@@ -53,7 +53,13 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/elements/1.1/contributor" : [ {
     "@language" : "es",
+    "@value" : "Carmen Hervás Bautista - Ayuntamiento de Madrid"
+  }, {
+    "@language" : "es",
     "@value" : "Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid"
+  }, {
+    "@language" : "es",
+    "@value" : "Manuel Alejandro Pose Pose - Ayuntamiento de A Coruña"
   }, {
     "@language" : "es",
     "@value" : "María Carmen Ruiz Moreno - Ayuntamiento de Madrid"
@@ -93,7 +99,7 @@
     "@value" : "Vocabulario para la representación de la información de la Deuda Pública Comercial de un ayuntamiento."
   }, {
     "@language" : "en",
-    "@value" : "Vocabulary for the representation of the Economical  Public Debt of a city council."
+    "@value" : "Vocabulary for the representation of the Commercial Public Debt of a city council."
   } ],
   "http://purl.org/dc/terms/creator" : [ {
     "@value" : "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)"
@@ -149,7 +155,7 @@
     "@value" : "Informe morosidad mensual"
   }, {
     "@language" : "en",
-    "@value" : "Late payment report"
+    "@value" : "Monthly late payment report"
   } ]
 }, {
   "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensualGlobal",
@@ -163,7 +169,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "Global monthly late payment"
+    "@value" : "Global monthly late payment report"
   }, {
     "@language" : "es",
     "@value" : "Informe morosidad mensual global"
@@ -188,7 +194,7 @@
     "@value" : "Informe morosidad trimestral"
   }, {
     "@language" : "en",
-    "@value" : "Late payment quarterly report"
+    "@value" : "Quarterly late payment report"
   } ]
 }, {
   "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#entidad",
@@ -278,6 +284,9 @@
     "@language" : "en",
     "@value" : "Total amount of late payment interest paid in the period."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
@@ -287,6 +296,9 @@
   }, {
     "@language" : "es",
     "@value" : "importe intereses demora"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
   } ]
 }, {
   "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPagadas",
@@ -474,7 +486,7 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#integer"
   } ]
 }, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeríodo",
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeriodo",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
@@ -490,10 +502,10 @@
     "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "es",
+    "@language" : "en",
     "@value" : "number payments outside period"
   }, {
-    "@language" : "en",
+    "@language" : "es",
     "@value" : "número pagos fuera período"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
@@ -568,11 +580,11 @@
     "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Average monthly payment period"
-  }, {
     "@language" : "es",
     "@value" : "Período medio pago mensual"
+  }, {
+    "@language" : "en",
+    "@value" : "monthly average payment period"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
@@ -587,6 +599,9 @@
     "@language" : "en",
     "@value" : "Período medio de pago  a proveedores mensual global del ayuntamiento,  expresado en días."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensualGlobal"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
@@ -596,6 +611,9 @@
   }, {
     "@language" : "es",
     "@value" : "período medio pago mensual global"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
   } ]
 }, {
   "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoPendiente",
@@ -615,7 +633,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "average period pending payment"
+    "@value" : "average pending payment period"
   }, {
     "@language" : "es",
     "@value" : "período medio pago pendiente"
@@ -633,6 +651,9 @@
     "@language" : "es",
     "@value" : "Período medio de pago  a proveedores trimestral expresado en días."
   } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
   } ],
@@ -642,6 +663,9 @@
   }, {
     "@language" : "en",
     "@value" : "quaterly average payment period"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#float"
   } ]
 }, {
   "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#ratioOperacionesPagadas",

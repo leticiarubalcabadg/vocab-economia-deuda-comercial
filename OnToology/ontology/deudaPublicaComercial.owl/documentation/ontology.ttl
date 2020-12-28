@@ -8,7 +8,9 @@
 
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial> rdf:type owl:Ontology ;
                                                                          owl:versionIRI <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial/1.0.0> ;
-                                                                         <http://purl.org/dc/elements/1.1/contributor> "Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid"@es ,
+                                                                         <http://purl.org/dc/elements/1.1/contributor> "Carmen Hervás Bautista - Ayuntamiento de Madrid"@es ,
+                                                                                                                       "Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid"@es ,
+                                                                                                                       "Manuel Alejandro Pose Pose - Ayuntamiento de A Coruña"@es ,
                                                                                                                        "María Carmen Ruiz Moreno - Ayuntamiento de Madrid"@es ,
                                                                                                                        "María Jesús Fernández Ruiz - Ayuntamiento de Zaragoza"@es ,
                                                                                                                        "María Jesús Gallego San Miguel - Ayuntamiento de Madrid"@es ,
@@ -21,7 +23,7 @@
                                                                                                                    "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, Localidata)" ;
                                                                          <http://purl.org/dc/elements/1.1/identifier> "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"@es ;
                                                                          <http://purl.org/dc/elements/1.1/title> "Vocabulario para la representación de la información de la Deuda Pública Comercial de un ayuntamiento."@es ,
-                                                                                                                 "Vocabulary for the representation of the Economical  Public Debt of a city council."@en ;
+                                                                                                                 "Vocabulary for the representation of the Commercial Public Debt of a city council."@en ;
                                                                          <http://purl.org/dc/terms/creator> "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)" ;
                                                                          <http://purl.org/dc/terms/hasFormat> "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial.owl"@es ;
                                                                          <http://purl.org/dc/terms/issued> "2020-05-20"@es ;
@@ -214,6 +216,8 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
 ###  http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeInteresesDemora
 :importeInteresesDemora rdf:type owl:DatatypeProperty ,
                                  owl:FunctionalProperty ;
+                        rdfs:domain :InformeMorosidadTrimestral ;
+                        rdfs:range xsd:float ;
                         rdfs:comment "Importe total de intereses de demora pagados en el período."@es ,
                                      "Total amount of late payment interest paid in the period."@en ;
                         rdfs:isDefinedBy "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" ;
@@ -306,16 +310,16 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                        rdfs:label "número pagos dentro período"@es .
 
 
-###  http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeríodo
-:numPagosFueraPeríodo rdf:type owl:DatatypeProperty ,
+###  http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeriodo
+:numPagosFueraPeriodo rdf:type owl:DatatypeProperty ,
                                owl:FunctionalProperty ;
                       rdfs:domain :InformeMorosidadTrimestral ;
                       rdfs:range xsd:integer ;
                       rdfs:comment "Number of payments outside the legal payment period."@en ,
                                    "Número de pagos fuera del período legal de pago."@es ;
                       rdfs:isDefinedBy "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" ;
-                      rdfs:label "number payments outside period"@es ,
-                                 "número pagos fuera período"@en .
+                      rdfs:label "number payments outside period"@en ,
+                                 "número pagos fuera período"@es .
 
 
 ###  http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosInteresesDemora
@@ -338,12 +342,14 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                          rdfs:comment "Average period of  payment to suppliers monthly."@en ,
                                       "Período medio de pago  a proveedores mensual expresado en días."@es ;
                          rdfs:isDefinedBy "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" ;
-                         rdfs:label "Average monthly payment period"@en ,
-                                    "Período medio pago mensual"@es .
+                         rdfs:label "Período medio pago mensual"@es ,
+                                    "monthly average payment period"@en .
 
 
 ###  http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensualGlobal
 :periodoMedioPagoMensualGlobal rdf:type owl:DatatypeProperty ;
+                               rdfs:domain :InformeMorosidadMensualGlobal ;
+                               rdfs:range xsd:float ;
                                rdfs:comment "Global average monthly payment period to suppliers expressed in days."@en ,
                                             "Período medio de pago  a proveedores mensual global del ayuntamiento,  expresado en días."@en ;
                                rdfs:isDefinedBy "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" ;
@@ -359,13 +365,15 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                            rdfs:comment "Average pending payment period expressed in days."@en ,
                                         "Período medio de pago pendiente del período expresado en días."@es ;
                            rdfs:isDefinedBy "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" ;
-                           rdfs:label "average period pending payment"@en ,
+                           rdfs:label "average pending payment period"@en ,
                                       "período medio pago pendiente"@es .
 
 
 ###  http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoTrimestral
 :periodoMedioPagoTrimestral rdf:type owl:DatatypeProperty ,
                                      owl:FunctionalProperty ;
+                            rdfs:domain :InformeMorosidadTrimestral ;
+                            rdfs:range xsd:float ;
                             rdfs:comment "Average period of  payment to suppliers, quaterly."@en ,
                                          "Período medio de pago  a proveedores trimestral expresado en días."@es ;
                             rdfs:isDefinedBy "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" ;
@@ -453,14 +461,14 @@ pendientes de pago al final del período."""@es ,
                                       "Monthly, the municipality and its dependent entities report the Average Period of Payment to Suppliers PMP) expressed in days. All municipalities are obliged to communicate the monthly PMP to the Ministry of Finance in the terms defined by Royal Decree 635/2014."@en ;
                          rdfs:isDefinedBy "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" ;
                          rdfs:label "Informe morosidad mensual"@es ,
-                                    "Late payment report"@en .
+                                    "Monthly late payment report"@en .
 
 
 ###  http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensualGlobal
 :InformeMorosidadMensualGlobal rdf:type owl:Class ;
                                rdfs:comment "Mensualmente se reporta el Periodo Medio de Pago Global a Proveedores Mensual expresado en días."@es ,
                                             "The Average Monthly Global Payment Period to Suppliers is reported monthly expressed in days."@en ;
-                               rdfs:label "Global monthly late payment"@en ,
+                               rdfs:label "Global monthly late payment report"@en ,
                                           "Informe morosidad mensual global"@es .
 
 
@@ -471,7 +479,7 @@ pendientes de pago al final del período."""@es ,
                                          "Quarterly the municipality and its dependent entities report the Average Period of Payment to Suppliers expressed in days." ;
                             rdfs:isDefinedBy "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" ;
                             rdfs:label "Informe morosidad trimestral"@es ,
-                                       "Late payment quarterly report"@en .
+                                       "Quarterly late payment report"@en .
 
 
 ###  http://www.w3.org/2006/time#Instant

@@ -2,10 +2,10 @@
 <span class="markdown">
 This ontology has the following classes and properties.</span>
 <h4>Classes</h4>
-<ul class="hlist">
+<ul xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" class="hlist">
    <li>
       <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensualGlobal"
-         title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensualGlobal">Global monthly late payment</a>
+         title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensualGlobal">Global monthly late payment report</a>
    </li>
    <li>
       <a href="#http://www.w3.org/2006/time#Interval" title="http://www.w3.org/2006/time#Interval">
@@ -13,12 +13,8 @@ This ontology has the following classes and properties.</span>
       </a>
    </li>
    <li>
-      <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral"
-         title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral">Late payment quarterly report</a>
-   </li>
-   <li>
       <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensual"
-         title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensual">Late payment report</a>
+         title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensual">Monthly late payment report</a>
    </li>
    <li>
       <a href="#http://www.w3.org/ns/org#Organization" title="http://www.w3.org/ns/org#Organization">Organization</a>
@@ -27,9 +23,13 @@ This ontology has the following classes and properties.</span>
       <a href="#http://www.w3.org/2006/time#ProperInterval" title="http://www.w3.org/2006/time#ProperInterval">Proper interval</a>
    </li>
    <li>
+      <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral"
+         title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral">Quarterly late payment report</a>
+   </li>
+   <li>
       <a href="#http://www.w3.org/2006/time#Instant" title="http://www.w3.org/2006/time#Instant">Time instant</a>
    </li>
-</ul><h4>Object Properties</h4><ul class="hlist">
+</ul><h4>Object Properties</h4><ul xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" class="hlist">
    <li>
       <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#entidad"
          title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#entidad">entity</a>
@@ -44,7 +44,7 @@ This ontology has the following classes and properties.</span>
       <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodo"
          title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodo">period</a>
    </li>
-</ul><h4>Data Properties</h4><ul class="hlist">
+</ul><h4>Data Properties</h4><ul xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" class="hlist">
    <li>
       <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#tipoContabilidad"
          title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#tipoContabilidad">accounting type</a>
@@ -78,12 +78,8 @@ This ontology has the following classes and properties.</span>
          title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeFacturasPendientesDentroPeriodo">amount pending invoices within period</a>
    </li>
    <li>
-      <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensual"
-         title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensual">Average monthly payment period</a>
-   </li>
-   <li>
       <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoPendiente"
-         title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoPendiente">average period pending payment</a>
+         title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoPendiente">average pending payment period</a>
    </li>
    <li>
       <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensualGlobal"
@@ -96,8 +92,16 @@ This ontology has the following classes and properties.</span>
       <a href="#http://www.w3.org/2006/time#inXSDgYearMonth" title="http://www.w3.org/2006/time#inXSDgYearMonth">in XSD g-YearMonth</a>
    </li>
    <li>
+      <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensual"
+         title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensual">monthly average payment period</a>
+   </li>
+   <li>
       <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosInteresesDemora"
          title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosInteresesDemora">number payments late payment interest</a>
+   </li>
+   <li>
+      <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeriodo"
+         title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeriodo">number payments outside period</a>
    </li>
    <li>
       <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numFacturasPendientesFueraPeriodo"
@@ -110,10 +114,6 @@ This ontology has the following classes and properties.</span>
    <li>
       <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosDentroPeriodo"
          title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosDentroPeriodo">número pagos dentro período</a>
-   </li>
-   <li>
-      <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeríodo"
-         title="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosFueraPeríodo">número pagos fuera período</a>
    </li>
    <li>
       <a href="#http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoTrimestral"
