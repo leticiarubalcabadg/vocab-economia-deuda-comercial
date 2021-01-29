@@ -4,7 +4,7 @@
 </center>
     <br>
   <span class="markdown">
-En este vocabulario se tienen clases para representar el [esdeucom:InformeMorosidadTrimestral](#InformeMorosidadTrimestral) y el [esdeucom:InformeMorosidadMensual](#InformeMorosidadMensual) . Las propiedades de estas dos clases se corresponden a los campos de cada uno de los informes destacando el [esdeucom:periodoMedioPagoMensual](#periodoMedioPagoMensual) o PMP mensual y el [esdeucom:periodoMedioPagoTrimestral](#periodoMedioPagoTrimestral) o PMP trimestral. Los informes de morosidad mensual y trimestral se realizan en un determinado [esdeucom:periodo](#periodo) de tal manera que en es posible representar los informes de morosidad de varios meses o de varios trimestres y así poder realizar análisis comparativos acerca de la deuda comercial de un ayuntamiento a lo largo del tiempo. Además se tiene que el PMP Mensual se calcula globalmente para el ayuntamiento y se representa mediante la propiedad [esdeucom:periodoMedioPagoMensualGlobal](#periodoMedioPagoMensualGlobal) dentro de la clase [esdeucom:InformeMorosidadMensualGlobal](#InformeMorosidadMensualGlobal). Para representar el período se ha reutilizado la ontología [time](https://www.w3.org/TR/owl-time/), en particular las clases [time:ProperInterval](#http://www.w3.org/2006/time#ProperInterval) e [time:Instant](#http://www.w3.org/2006/time#Instant) para representar el inicio y final de un período.
+En este vocabulario se tienen clases para representar el [esdeucom:InformeMorosidadTrimestral](#InformeMorosidadTrimestral) y el [esdeucom:InformePMPMensual](#InformePMPMensual) . Las propiedades de estas dos clases se corresponden a los campos de cada uno de los informes destacando el [esdeucom:periodoMedioPagoMensual](#periodoMedioPagoMensual) o PMP mensual y el [esdeucom:periodoMedioPagoTrimestral](#periodoMedioPagoTrimestral) o PMP trimestral. Los informes de PMP mensual y trimestral se realizan en un determinado [esdeucom:periodo](#periodo) de tal manera que en es posible representar los informes de morosidad de varios meses o de varios trimestres y así poder realizar análisis comparativos acerca de la deuda comercial de un ayuntamiento a lo largo del tiempo. Además se tiene que el PMP Mensual se calcula globalmente para el ayuntamiento y se representa mediante la propiedad [esdeucom:periodoMedioPagoMensualGlobal](#periodoMedioPagoMensualGlobal) dentro de la clase [esdeucom:InformePMPMensualGlobal](#InformePMPMensualGlobal). Para representar el período se ha reutilizado la ontología [time](https://www.w3.org/TR/owl-time/), en particular las clases [time:ProperInterval](#http://www.w3.org/2006/time#ProperInterval) e [time:Instant](#http://www.w3.org/2006/time#Instant) para representar el inicio y final de un período.
 Los informes de morosidad se realizan tanto para la entidad local en sí como para sus entidades dependientes. La entidad local y sus entidades dependientes se representan mediante la clase [org:Organization](https://www.w3.org/TR/vocab-org/#class-organization) de la ontología [Organization](https://www.w3.org/TR/vocab-org/).
 </span>
 <h3>3.1 Ejemplos de uso<span class="backlink"> volver a <a href="#toc">&iacute;ndice</a></span></h3>
@@ -51,8 +51,8 @@ Los informes de morosidad se realizan tanto para la entidad local en sí como pa
   De manera similar se puede representar el Informe de Morosidad Mensual de un ayuntamiento o de alguna de sus entidades dependientes. Se ejemplifica el Instituto Municipal de Empleo y Fomento Empresarial del Ayuntamiento de Zaragoza correspondiente al mes de Junio de 2020.
 </span>
 <pre>
-&lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/informe-morosidad-mensual/02-50-297-AO-005&gt; 
-        a esdeucom:InformeMorosidadMensual;
+&lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/informe-pmp-mensual/02-50-297-AO-005&gt; 
+        a esdeucom:InformePMPMensual;
         esdeucom:entidad  &lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/organizacion/02-50-297-AO-005&gt;;
         esdeucom:periodo &lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/intervalo-tiempo/2020-06 &gt;;
         esdeucom:periodoMedioPagoMensual "18.72"^^xsd:float ;
@@ -77,8 +77,8 @@ Los informes de morosidad se realizan tanto para la entidad local en sí como pa
   A continuación se ejemplifica el PMP mensual global del ayuntamiento de Zaragoza:
 </span>
 <pre>
-&lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/informe-morosidad-mensual-global/2020-06-zaragoza&gt; 
-        a esdeucom:InformeMorosidadMensualGlobal;
+&lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/informe-pmp-mensual-global/2020-06-zaragoza&gt; 
+        a esdeucom:InformePMPMensualGlobal;
         esdeucom:periodo &lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/intervalo-tiempo/2020-06 &gt;;
         esdeucom:periodoMedioPagoMensualGlobal "27.04"^^xsd:float ;       
 &lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/intervalo-tiempo/2020-06&gt; 
