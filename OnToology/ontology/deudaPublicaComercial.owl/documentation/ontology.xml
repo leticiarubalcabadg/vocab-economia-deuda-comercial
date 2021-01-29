@@ -706,7 +706,7 @@ pendientes de pago al final del período.</rdfs:comment>
         <rdfs:comment xml:lang="es">Mensualmente se reporta el Periodo Medio de Pago Global a Proveedores Mensual expresado en días.</rdfs:comment>
         <rdfs:comment xml:lang="en">The Average Monthly Global Payment Period to Suppliers is reported monthly and expressed in days.</rdfs:comment>
         <rdfs:label xml:lang="en">Global monthly PMP report</rdfs:label>
-        <rdfs:label xml:lang="es">Informe PMP mensual global</rdfs:label>
+        <rdfs:label xml:lang="es">Informe PMP Mensual Global</rdfs:label>
     </owl:Class>
     
 
