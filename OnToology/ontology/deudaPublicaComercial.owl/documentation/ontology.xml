@@ -37,7 +37,7 @@
         <vann:preferredNamespaceUri>http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial</vann:preferredNamespaceUri>
         <rdfs:comment xml:lang="es">Esta versión ha sido generada dentro del contexto del proyecto &quot;Plataforma de gobierno abierto, colaborativa e interoperable&quot; en el que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y A Coruña. En esta versión se tienen clases y propiedades de acuerdo a los requisitos y glosario de conceptos validados en la reunión del 16/04/2020.</rdfs:comment>
         <rdfs:comment xml:lang="es">Vocabulario para la representación de la información de la deuda pública comercial tomando en cuenta que la deuda pública es uno de los indicadores esenciales de las cuentas públicas para entender el estado de la situación económica de un ayuntamiento. La deuda comercial incluye los datos del informe de morosidad trimestral y los datos de Período Medio de Pago (PMP) mensual.</rdfs:comment>
-        <rdfs:comment xml:lang="en">Vocabulary for the representation of the economical  public debt taking into account that public debt is one of the essential indicators of public accountability and to understand the state of the economic situation of a city council. The Commercial Debt includes the data from the quarterly late payment report and the monthly Average Payment Period (PMP) data.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Vocabulary for the representation of the commercial  public debt taking into account that public debt is one of the essential indicators of public accountability and to understand the state of the economic situation of a city council. The Commercial Debt includes the data from the quarterly late payment report and the monthly Average Payment Period (PMP) data.</rdfs:comment>
         <owl:versionInfo>Esta es la versión inicial de la ontología de Deuda pública que ha sido implementada en el contexto del proyecto &quot;Plataforma de gobierno abierto, colaborativa e interoperable&quot; en la que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y La Coruña.</owl:versionInfo>
     </owl:Ontology>
     
@@ -691,10 +691,10 @@ pendientes de pago al final del período.</rdfs:comment>
 
     <owl:Class rdf:about="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual">
         <rdfs:comment xml:lang="es">Mensualmente el ayuntamiento y sus entidades dependientes reportan el Periodo Medio de Pago a Proveedores (PMP) expresado en días. Todos los ayuntamientos están obligados a comunicar el PMP mensual al Ministerio de Hacienda en los términos definidos por el Real Decreto 635/2014.</rdfs:comment>
-        <rdfs:comment xml:lang="en">Monthly, the municipality and its dependent entities report the Average Period of Payment to Suppliers PMP) expressed in days. All municipalities are obliged to communicate the monthly PMP to the Ministry of Finance in the terms defined by Royal Decree 635/2014.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Monthly, the municipality and its dependent entities report the Average Period of Payment to Suppliers (PMP) expressed in days. All municipalities are obliged to communicate the monthly PMP to the Ministry of Finance in the terms defined by Royal Decree 635/2014.</rdfs:comment>
         <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial</rdfs:isDefinedBy>
         <rdfs:label xml:lang="es">Informe PMP mensual</rdfs:label>
-        <rdfs:label xml:lang="en">Monthly late payment report</rdfs:label>
+        <rdfs:label xml:lang="en">Monthly PMP report</rdfs:label>
     </owl:Class>
     
 
@@ -705,7 +705,7 @@ pendientes de pago al final del período.</rdfs:comment>
     <owl:Class rdf:about="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensualGlobal">
         <rdfs:comment xml:lang="es">Mensualmente se reporta el Periodo Medio de Pago Global a Proveedores Mensual expresado en días.</rdfs:comment>
         <rdfs:comment xml:lang="en">The Average Monthly Global Payment Period to Suppliers is reported monthly expressed in days.</rdfs:comment>
-        <rdfs:label xml:lang="en">Global monthly late payment report</rdfs:label>
+        <rdfs:label xml:lang="en">Global monthly PMP report</rdfs:label>
         <rdfs:label xml:lang="es">Informe PMP mensual global</rdfs:label>
     </owl:Class>
     
