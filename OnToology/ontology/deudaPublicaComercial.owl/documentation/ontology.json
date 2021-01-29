@@ -187,7 +187,7 @@
     "@value" : "Mensualmente se reporta el Periodo Medio de Pago Global a Proveedores Mensual expresado en días."
   }, {
     "@language" : "en",
-    "@value" : "The Average Monthly Global Payment Period to Suppliers is reported monthly expressed in days."
+    "@value" : "The Average Monthly Global Payment Period to Suppliers is reported monthly and expressed in days."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",

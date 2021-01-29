@@ -477,7 +477,7 @@ pendientes de pago al final del período."""@es ,
 ###  http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensualGlobal
 :InformePMPMensualGlobal rdf:type owl:Class ;
                          rdfs:comment "Mensualmente se reporta el Periodo Medio de Pago Global a Proveedores Mensual expresado en días."@es ,
-                                      "The Average Monthly Global Payment Period to Suppliers is reported monthly expressed in days."@en ;
+                                      "The Average Monthly Global Payment Period to Suppliers is reported monthly and expressed in days."@en ;
                          rdfs:label "Global monthly PMP report"@en ,
                                     "Informe PMP mensual global"@es .
 
