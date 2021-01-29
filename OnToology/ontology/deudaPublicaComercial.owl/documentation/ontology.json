@@ -3,9 +3,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensual"
-    }, {
       "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral"
+    }, {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual"
     } ]
   } ]
 }, {
@@ -13,9 +13,9 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2002/07/owl#unionOf" : [ {
     "@list" : [ {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensual"
-    }, {
       "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral"
+    }, {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual"
     } ]
   } ]
 }, {
@@ -129,50 +129,13 @@
     "@value" : "Vocabulario para la representación de la información de la deuda pública comercial tomando en cuenta que la deuda pública es uno de los indicadores esenciales de las cuentas públicas para entender el estado de la situación económica de un ayuntamiento. La deuda comercial incluye los datos del informe de morosidad trimestral y los datos de Período Medio de Pago (PMP) mensual."
   }, {
     "@language" : "en",
-    "@value" : "Vocabulary for the representation of the economical  public debt taking into account that public debt is one of the essential indicators of public accountability and to understand the state of the economic situation of a city council. The Commercial Debt includes the data from the quarterly late payment report and the monthly Average Payment Period (PMP) data."
+    "@value" : "Vocabulary for the representation of the commercial  public debt taking into account that public debt is one of the essential indicators of public accountability and to understand the state of the economic situation of a city council. The Commercial Debt includes the data from the quarterly late payment report and the monthly Average Payment Period (PMP) data."
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
     "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial/1.0.0"
   } ],
   "http://www.w3.org/2002/07/owl#versionInfo" : [ {
     "@value" : "Esta es la versión inicial de la ontología de Deuda pública que ha sido implementada en el contexto del proyecto \"Plataforma de gobierno abierto, colaborativa e interoperable\" en la que participan los ayuntamientos de Madrid, Zaragoza, Santiago de Compostela y La Coruña."
-  } ]
-}, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensual",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "es",
-    "@value" : "Mensualmente el ayuntamiento y sus entidades dependientes reportan el Periodo Medio de Pago a Proveedores (PMP) expresado en días. Todos los ayuntamientos están obligados a comunicar el PMP mensual al Ministerio de Hacienda en los términos definidos por el Real Decreto 635/2014."
-  }, {
-    "@language" : "en",
-    "@value" : "Monthly, the municipality and its dependent entities report the Average Period of Payment to Suppliers PMP) expressed in days. All municipalities are obliged to communicate the monthly PMP to the Ministry of Finance in the terms defined by Royal Decree 635/2014."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "es",
-    "@value" : "Informe morosidad mensual"
-  }, {
-    "@language" : "en",
-    "@value" : "Monthly late payment report"
-  } ]
-}, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensualGlobal",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "es",
-    "@value" : "Mensualmente se reporta el Periodo Medio de Pago Global a Proveedores Mensual expresado en días."
-  }, {
-    "@language" : "en",
-    "@value" : "The Average Monthly Global Payment Period to Suppliers is reported monthly expressed in days."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "Global monthly late payment report"
-  }, {
-    "@language" : "es",
-    "@value" : "Informe morosidad mensual global"
   } ]
 }, {
   "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral",
@@ -195,6 +158,43 @@
   }, {
     "@language" : "en",
     "@value" : "Quarterly late payment report"
+  } ]
+}, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Mensualmente el ayuntamiento y sus entidades dependientes reportan el Periodo Medio de Pago a Proveedores (PMP) expresado en días. Todos los ayuntamientos están obligados a comunicar el PMP mensual al Ministerio de Hacienda en los términos definidos por el Real Decreto 635/2014."
+  }, {
+    "@language" : "en",
+    "@value" : "Monthly, the municipality and its dependent entities report the Average Period of Payment to Suppliers (PMP) expressed in days. All municipalities are obliged to communicate the monthly PMP to the Ministry of Finance in the terms defined by Royal Decree 635/2014."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "es",
+    "@value" : "Informe PMP mensual"
+  }, {
+    "@language" : "en",
+    "@value" : "Monthly PMP report"
+  } ]
+}, {
+  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensualGlobal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "es",
+    "@value" : "Mensualmente se reporta el Periodo Medio de Pago Global a Proveedores Mensual expresado en días."
+  }, {
+    "@language" : "en",
+    "@value" : "The Average Monthly Global Payment Period to Suppliers is reported monthly and expressed in days."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Global monthly PMP report"
+  }, {
+    "@language" : "es",
+    "@value" : "Informe PMP Mensual Global"
   } ]
 }, {
   "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#entidad",
@@ -311,7 +311,7 @@
     "@value" : "Total amount of operations paid during the period."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensual"
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
@@ -337,7 +337,7 @@
     "@value" : "Total amount of operations pending payment in the period."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensual"
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
@@ -574,7 +574,7 @@
     "@value" : "Período medio de pago  a proveedores mensual expresado en días."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensual"
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
@@ -600,7 +600,7 @@
     "@value" : "Período medio de pago  a proveedores mensual global del ayuntamiento,  expresado en días."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensualGlobal"
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensualGlobal"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
@@ -677,7 +677,7 @@
     "@value" : "Indicator of the average number of days it took to make payments in this period."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensual"
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
@@ -703,7 +703,7 @@
     "@value" : "indicator of the average number of days of operations pending payment at the end of the period."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensual"
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"

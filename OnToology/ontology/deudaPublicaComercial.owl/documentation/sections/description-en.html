@@ -5,7 +5,7 @@
     <br>
   <span class="markdown">
 In this vocabulary there are casses to represent the late payment quarterly report
-[esdeucom:InformeMorosidadTrimestral](#InformeMorosidadTrimestral) and the late payment monthly report [esdeucom:InformeMorosidadMensual](#InformeMorosidadMensual). The properties of these two clases correspond to the fields of each of these reports. Some of these fields are the monthly average payment period [esdeucom:periodoMedioPagoMensual](#periodoMedioPagoMensual) or monthly PMP and the quarterly average payment period [esdeucom:periodoMedioPagoTrimestral](#periodoMedioPagoTrimestral) or quarterly PMP. The monthly and quarterly late payment reports cover a certain period [esdeucom:periodo](#periodo) in a way that is possible to represent the late payment reports of several months or quarters and thus, be able to make comparative analysis on the commercial debt of a city council over time. Besides this, the monthly PMP is computed globally for the city council and is represented through the property [esdeucom:periodoMedioPagoMensualGlobal](#periodoMedioPagoMensualGlobal) in the class [esdeucom:InformeMorosidadMensualGlobal](#InformeMorosidadMensualGlobal). In order to represent the period we have reused the 
+[esdeucom:InformeMorosidadTrimestral](#InformeMorosidadTrimestral) and the late payment monthly report [esdeucom:InformePMPMensual](#InformePMPMensual). The properties of these two clases correspond to the fields of each of these reports. Some of these fields are the monthly average payment period [esdeucom:periodoMedioPagoMensual](#periodoMedioPagoMensual) or monthly PMP and the quarterly average payment period [esdeucom:periodoMedioPagoTrimestral](#periodoMedioPagoTrimestral) or quarterly PMP. The monthly and quarterly late payment reports cover a certain period [esdeucom:periodo](#periodo) in a way that is possible to represent the late payment reports of several months or quarters and thus, be able to make comparative analysis on the commercial debt of a city council over time. Besides this, the monthly PMP is computed globally for the city council and is represented through the property [esdeucom:periodoMedioPagoMensualGlobal](#periodoMedioPagoMensualGlobal) in the class [esdeucom:InformePMPMensualGlobal](#InformePMPMensualGlobal). In order to represent the period we have reused the 
 [time](https://www.w3.org/TR/owl-time/) ontology, specifically the classes s[time:ProperInterval](#http://www.w3.org/2006/time#ProperInterval) and [time:Instant](#http://www.w3.org/2006/time#Instant) to represent the beginning and end of a period. The late payment reports are made for the local entity as well as for its depending entities.
 The local entity and its dependent entities are represented with the class  [org:Organization](https://www.w3.org/TR/vocab-org/#class-organization) from the  [Organization](https://www.w3.org/TR/vocab-org/) ontology.
 </span>
@@ -50,11 +50,11 @@ The local entity and its dependent entities are represented with the class  [org
 </pre>
 
 <span class="markdown">
- Similarly, we can represent the monthly late payment report of a city council or of one of its depending entities. We show the report for the Zaragoza Municipal Employment Institute at the end of June, 2020. 
+ Similarly, we can represent the monthly PMP report of a city council or of one of its depending entities. We show the report for the Zaragoza Municipal Employment Institute at the end of June, 2020. 
 </span>
 <pre>
-&lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/informe-morosidad-mensual/02-50-297-AO-005&gt; 
-        a esdeucom:InformeMorosidadMensual;
+&lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/informe-pmp-mensual/02-50-297-AO-005&gt; 
+        a esdeucom:InformePMPMensual;
         esdeucom:entidad  &lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/organizacion/02-50-297-AO-005&gt;;
         esdeucom:periodo &lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/intervalo-tiempo/2020-06 &gt;;
         esdeucom:periodoMedioPagoMensual "18.72"^^xsd:float ;
@@ -78,8 +78,8 @@ The local entity and its dependent entities are represented with the class  [org
 <span class="markdown">Next, we illustrate the Zaragoza monthly global PMP at the end of June, 2020:
 </span>
 <pre>
-&lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/informe-morosidad-mensual-global/2020-06-zaragoza&gt; 
-        a esdeucom:InformeMorosidadMensualGlobal;
+&lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/informe-pmp-mensual-global/2020-06-zaragoza&gt; 
+        a esdeucom:InformePMPMensualGlobal;
         esdeucom:periodo &lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/intervalo-tiempo/2020-06 &gt;;
         esdeucom:periodoMedioPagoMensualGlobal "27.04"^^xsd:float ;       
 &lt;http://vocab.ciudadesabiertas.es/recurso/economia/deuda-comercial/intervalo-tiempo/2020-06&gt; 

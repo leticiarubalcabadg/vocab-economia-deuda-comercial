@@ -1,5 +1,8 @@
 {
   "@context" : {
+    "InformePMPMensualGlobal" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensualGlobal"
+    },
     "scopeNote" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#scopeNote"
     },
@@ -111,9 +114,6 @@
       "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numFacturasPendientesDentroPeriodo",
       "@type" : "http://www.w3.org/2001/XMLSchema#integer"
     },
-    "InformeMorosidadMensual" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensual"
-    },
     "preferredNamespacePrefix" : {
       "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
     },
@@ -126,9 +126,6 @@
     },
     "definition" : {
       "@id" : "http://www.w3.org/2004/02/skos/core#definition"
-    },
-    "InformeMorosidadMensualGlobal" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadMensualGlobal"
     },
     "numPagosInteresesDemora" : {
       "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosInteresesDemora",
@@ -169,6 +166,9 @@
     },
     "hasFormat" : {
       "@id" : "http://purl.org/dc/terms/hasFormat"
+    },
+    "InformePMPMensual" : {
+      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual"
     },
     "entidad" : {
       "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#entidad",
