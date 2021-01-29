@@ -454,7 +454,7 @@ _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensualGlobal> <http://www.w3.org/2000/01/rdf-schema#comment> "Mensualmente se reporta el Periodo Medio de Pago Global a Proveedores Mensual expresado en días."@es .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensualGlobal> <http://www.w3.org/2000/01/rdf-schema#comment> "The Average Monthly Global Payment Period to Suppliers is reported monthly and expressed in days."@en .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensualGlobal> <http://www.w3.org/2000/01/rdf-schema#label> "Global monthly PMP report"@en .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensualGlobal> <http://www.w3.org/2000/01/rdf-schema#label> "Informe PMP mensual global"@es .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensualGlobal> <http://www.w3.org/2000/01/rdf-schema#label> "Informe PMP Mensual Global"@es .
 # 
 # http://www.w3.org/2006/time#Instant
 <http://www.w3.org/2006/time#Instant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

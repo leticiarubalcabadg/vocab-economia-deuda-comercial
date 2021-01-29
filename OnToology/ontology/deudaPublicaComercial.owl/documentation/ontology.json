@@ -194,7 +194,7 @@
     "@value" : "Global monthly PMP report"
   }, {
     "@language" : "es",
-    "@value" : "Informe PMP mensual global"
+    "@value" : "Informe PMP Mensual Global"
   } ]
 }, {
   "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#entidad",
