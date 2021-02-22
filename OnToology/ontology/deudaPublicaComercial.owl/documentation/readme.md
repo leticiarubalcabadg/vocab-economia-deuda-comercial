@@ -1,34 +1,15 @@
-About Widoco output
-===================
-The purpose of Widoco is to reuse and integrate existing tools for documentation, plus the set of features listed below:
-* Separation of the sections of your html page so you can write them independently and replace only those needed.
-* Automatic annotation in RDF-a of the html produced.
-* Association of a provenance page which includes the history of your vocabulary (W3C PROV-O compliant).
-* Metadata extraction from the ontology plus the means to complete it on the fly when generating your ontology.
-* Guidelines on the main sections that your document should have and how to complete them.
+# vocab-economia-deuda-comercial
+Este vocabulario está siendo desarrollado en el contexto de la actuación sobre datos abiertos del proyecto "Plataforma de Gobierno Abierto, Colaborativa e Interoperable" (http://www.red.es/redes/es/que-hacemos/ciudades-inteligentes/proyectos-en-ciudades), de la II Convocatoria de Ciudades Inteligentes (https://perfilcontratante.red.es/perfilcontratante/busqueda/DetalleLicitacionesDefault.action?idLicitacion=6707&visualizar=0) que organiza la AgendaDigital (http://www.agendadigital.gob.es/Paginas/index.aspx)
+Asimismo, algunas modificaciones previas a la realización de este vocabulario en el contexto del proyecto anteriormente mencionado fueron financiadas por el proyecto europeo H2020 StandICT.eu.
 
-Widoco will create 3 different folders:
-|
-|-provenance (a folder including an html and RDF serialization of how the documentation page was created)
-|-resources (folder with the different resources)
-|-sections (folder with the different sections of the documentation, separated for easy editing. Just edit one and the main page will be updated)
+## Propósito y alcance del vocabulario
+El propósito y alcance de este vocabulario está motivado por la definición del conjunto de datos de Deuda Pública proporcionada en la guía publicada por el Grupo de Trabajo de Datos Abiertos creado por la FEMP: ["Datos Abiertos: Guía estratégica para su puesta en marcha. Conjuntos de datos mínimos a publicar"](http://femp.femp.es/files/3580-1617-fichero/Gu%C3%ADa%20Datos%20Abiertos.pdf). Según este documento, el propósito de este vocabulario es representar los datos acerca de la deuda contraída por el Ayuntamiento con terceros, con el detalle de terceros e importes y fechas y nombre de persona jurídica y CIF. Al detallar el alcance se determinó que era necesario representar tanto la información de la Deuda Financiera que incluye datos consolidados de la evolución de la deuda y datos detallados acerca de préstamos y emisiones y la Deuda Comercial que incluye los datos de PMP trimestral y PMP mensual (informes de morosidad). 
 
-Completing ontology metadata.
-===================
-Widoco uses the ontology metadata to update a configuration file. If you complete that configuration file (ended up widoco.conf), the tool will enhance your html with additional details, such as how to cite the document, previous revisions, icons with the licence, etc.
+Se han desarrollado dos vocabularios: (1) Deuda Pública Financiera que se encuentra en su correspondiente [repositorio](https://github.com/CiudadesAbiertas/vocab-economia-deuda-financiera) y (2) Deuda Pública Comercial que se encuentra en este repositorio.
 
-Browser issues
-==========
-The result of executing Widoco is an html file. We have tested it in Mozilla, IE and Chrome, and when the page is stored in a server all the browsers work correctly. If you view the file locally, we recommend you to use Mozilla Firefox (or Internet Explorer, if you must). Google Chrome will not show the contents correctly, as it doesn't allow  XMLHttpRequest without HTTP. If you want to view the page locally with Google Chrome you have two possibilities:
+## Desarrollo del vocabulario
+El material generado en las diferentes actividades ejecutadas durante el desarrollo del vocabulario, casos de uso, historias de usuario, glosario de términos, etc., se encuentra disponible en la [Wiki del Vocabulario](https://github.com/CiudadesAbiertas/vocab-economia-deuda-financiera/wiki).
 
-a) Place the file in a server and access it via its URL (for example, put it in dropbox and access through its public url).
+## Mantenimiento
+Para gestionar aquellas incidencias o mejoras sugeridas con respecto al vocabulario te recomendamos seguir las guías proporcionadas en [Gestión de Issues](https://github.com/CiudadesAbiertas/vocab-economia-deuda-financiera//wiki/Gesti%C3%B3n-de-issues)
 
-b) Execute Chrome with the following commands :
-
-(WIN) chrome.exe --allow-file-access-from-files,
-
-(OSX) open /Applications/Google\ Chrome.app/ --args --allow-file-access-from-files
-
-(UNX) /usr/bin/google-chrome --allow-file-access-from-files
-
-Do you have a problem? open an issue at https://github.com/dgarijo/Widoco
