@@ -217,14 +217,6 @@
 
     <owl:ObjectProperty rdf:about="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#entidad">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral"/>
-                    <rdf:Description rdf:about="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/ns/org#Organization"/>
         <rdfs:comment xml:lang="es">Ayuntamiento o entidad dependiente sobre el cual se informa.</rdfs:comment>
         <rdfs:comment xml:lang="en">City council or dependent entity on which it is informed.</rdfs:comment>
@@ -240,14 +232,6 @@
 
     <owl:ObjectProperty rdf:about="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodo">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain>
-            <owl:Class>
-                <owl:unionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral"/>
-                    <rdf:Description rdf:about="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual"/>
-                </owl:unionOf>
-            </owl:Class>
-        </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
         <rdfs:comment xml:lang="en">Period being reported on a late payment report.</rdfs:comment>
         <rdfs:comment xml:lang="es">Período que se está reportando en un informe de morosidad.</rdfs:comment>
@@ -624,18 +608,18 @@ pendientes de pago al final del período.</rdfs:comment>
     
 
 
-    <!-- http://www.w3.org/2006/time#inXSDgYearMonth -->
+    <!-- http://www.w3.org/2006/time#inXSDDate -->
 
 
-    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#inXSDgYearMonth">
+    <owl:DatatypeProperty rdf:about="http://www.w3.org/2006/time#inXSDDate">
         <rdfs:domain rdf:resource="http://www.w3.org/2006/time#Instant"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gYearMonth"/>
-        <rdfs:comment xml:lang="es">Posición de un instante, expresado utilizando xsd:gYearMonth.</rdfs:comment>
-        <rdfs:comment xml:lang="en">Position of an instant, expressed using xsd:gYearMonth</rdfs:comment>
-        <rdfs:label xml:lang="es">en año-mes gregoriano XSD</rdfs:label>
-        <rdfs:label xml:lang="en">in XSD g-YearMonth</rdfs:label>
-        <skos:definition xml:lang="es">Posición de un instante, expresado utilizando xsd:gYearMonth.</skos:definition>
-        <skos:definition xml:lang="en">Position of an instant, expressed using xsd:gYearMonth</skos:definition>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:comment xml:lang="es">Posición de un instante, expresado utilizando xsd:date.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Position of an instant, expressed using xsd:date</rdfs:comment>
+        <rdfs:label xml:lang="es">en fecha XSD</rdfs:label>
+        <rdfs:label xml:lang="en">in XSD date</rdfs:label>
+        <skos:definition xml:lang="es">Posición de un instante, expresado utilizando xsd:date.</skos:definition>
+        <skos:definition xml:lang="en">Position of an instant, expressed using xsd:date</skos:definition>
     </owl:DatatypeProperty>
     
 
@@ -676,6 +660,22 @@ pendientes de pago al final del período.</rdfs:comment>
 
 
     <owl:Class rdf:about="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#entidad"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.w3.org/ns/org#Organization"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodo"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="es"></rdfs:comment>
         <rdfs:comment xml:lang="es">Trimestralmente el ayuntamiento y sus entidades dependientes reportan el Periodo Medio de Pago a Proveedores expresado en días.</rdfs:comment>
         <rdfs:comment>Quarterly the municipality and its dependent entities report the Average Period of Payment to Suppliers expressed in days.</rdfs:comment>
@@ -690,6 +690,22 @@ pendientes de pago al final del período.</rdfs:comment>
 
 
     <owl:Class rdf:about="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#entidad"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.w3.org/ns/org#Organization"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodo"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="es">Mensualmente el ayuntamiento y sus entidades dependientes reportan el Periodo Medio de Pago a Proveedores (PMP) expresado en días. Todos los ayuntamientos están obligados a comunicar el PMP mensual al Ministerio de Hacienda en los términos definidos por el Real Decreto 635/2014.</rdfs:comment>
         <rdfs:comment xml:lang="en">Monthly, the municipality and its dependent entities report the Average Period of Payment to Suppliers (PMP) expressed in days. All municipalities are obliged to communicate the monthly PMP to the Ministry of Finance in the terms defined by Royal Decree 635/2014.</rdfs:comment>
         <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial</rdfs:isDefinedBy>
@@ -703,6 +719,13 @@ pendientes de pago al final del período.</rdfs:comment>
 
 
     <owl:Class rdf:about="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensualGlobal">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodo"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.w3.org/2006/time#ProperInterval"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:comment xml:lang="es">Mensualmente se reporta el Periodo Medio de Pago Global a Proveedores Mensual expresado en días.</rdfs:comment>
         <rdfs:comment xml:lang="en">The Average Monthly Global Payment Period to Suppliers is reported monthly and expressed in days.</rdfs:comment>
         <rdfs:label xml:lang="en">Global monthly PMP report</rdfs:label>
