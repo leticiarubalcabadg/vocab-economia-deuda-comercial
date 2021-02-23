@@ -117,10 +117,6 @@
     "preferredNamespacePrefix" : {
       "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
     },
-    "inXSDgYearMonth" : {
-      "@id" : "http://www.w3.org/2006/time#inXSDgYearMonth",
-      "@type" : "http://www.w3.org/2001/XMLSchema#gYearMonth"
-    },
     "isDefinedBy" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
     },
@@ -163,6 +159,10 @@
     "ratioOperacionesPendientes" : {
       "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#ratioOperacionesPendientes",
       "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "inXSDDate" : {
+      "@id" : "http://www.w3.org/2006/time#inXSDDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#date"
     },
     "hasFormat" : {
       "@id" : "http://purl.org/dc/terms/hasFormat"

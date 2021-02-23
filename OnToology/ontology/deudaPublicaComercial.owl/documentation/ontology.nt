@@ -113,15 +113,6 @@
 # http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#entidad
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#entidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#entidad> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#entidad> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
-_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid1 <http://www.w3.org/2002/07/owl#unionOf> _:genid3 .
-_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral> .
-_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual> .
-_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#entidad> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/ns/org#Organization> .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#entidad> <http://www.w3.org/2000/01/rdf-schema#comment> "Ayuntamiento o entidad dependiente sobre el cual se informa."@es .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#entidad> <http://www.w3.org/2000/01/rdf-schema#comment> "City council or dependent entity on which it is informed."@en .
@@ -132,15 +123,6 @@ _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 # http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodo
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodo> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid4 .
-_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-_:genid4 <http://www.w3.org/2002/07/owl#unionOf> _:genid6 .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral> .
-_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
-_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
-_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual> .
-_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2006/time#ProperInterval> .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodo> <http://www.w3.org/2000/01/rdf-schema#comment> "Period being reported on a late payment report."@en .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodo> <http://www.w3.org/2000/01/rdf-schema#comment> "Período que se está reportando en un informe de morosidad."@es .
@@ -311,8 +293,8 @@ _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral> .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of payments with late payment interest within the period."@en .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#comment> "Número de pagos con intereses de demora dentro del período."@es .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of payments of late payment interest within the period."@en .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#comment> "Número de pagos de intereses de demora dentro del período."@es .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#label> "number payments late payment interest"@en .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#label> "número pagos intereses demora"@es .
@@ -397,16 +379,16 @@ _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 # http://www.w3.org/2004/02/skos/core#notation
 <http://www.w3.org/2004/02/skos/core#notation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 # 
-# http://www.w3.org/2006/time#inXSDgYearMonth
-<http://www.w3.org/2006/time#inXSDgYearMonth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://www.w3.org/2006/time#inXSDgYearMonth> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2006/time#Instant> .
-<http://www.w3.org/2006/time#inXSDgYearMonth> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#gYearMonth> .
-<http://www.w3.org/2006/time#inXSDgYearMonth> <http://www.w3.org/2000/01/rdf-schema#comment> "Posición de un instante, expresado utilizando xsd:gYearMonth."@es .
-<http://www.w3.org/2006/time#inXSDgYearMonth> <http://www.w3.org/2000/01/rdf-schema#comment> "Position of an instant, expressed using xsd:gYearMonth"@en .
-<http://www.w3.org/2006/time#inXSDgYearMonth> <http://www.w3.org/2000/01/rdf-schema#label> "en año-mes gregoriano XSD"@es .
-<http://www.w3.org/2006/time#inXSDgYearMonth> <http://www.w3.org/2000/01/rdf-schema#label> "in XSD g-YearMonth"@en .
-<http://www.w3.org/2006/time#inXSDgYearMonth> <http://www.w3.org/2004/02/skos/core#definition> "Posición de un instante, expresado utilizando xsd:gYearMonth."@es .
-<http://www.w3.org/2006/time#inXSDgYearMonth> <http://www.w3.org/2004/02/skos/core#definition> "Position of an instant, expressed using xsd:gYearMonth"@en .
+# http://www.w3.org/2006/time#inXSDDate
+<http://www.w3.org/2006/time#inXSDDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.w3.org/2006/time#inXSDDate> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2006/time#Instant> .
+<http://www.w3.org/2006/time#inXSDDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://www.w3.org/2006/time#inXSDDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Posición de un instante, expresado utilizando xsd:date."@es .
+<http://www.w3.org/2006/time#inXSDDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Position of an instant, expressed using xsd:date"@en .
+<http://www.w3.org/2006/time#inXSDDate> <http://www.w3.org/2000/01/rdf-schema#label> "en fecha XSD"@es .
+<http://www.w3.org/2006/time#inXSDDate> <http://www.w3.org/2000/01/rdf-schema#label> "in XSD date"@en .
+<http://www.w3.org/2006/time#inXSDDate> <http://www.w3.org/2004/02/skos/core#definition> "Posición de un instante, expresado utilizando xsd:date."@es .
+<http://www.w3.org/2006/time#inXSDDate> <http://www.w3.org/2004/02/skos/core#definition> "Position of an instant, expressed using xsd:date"@en .
 # 
 # http://www.w3.org/ns/org#identifier
 <http://www.w3.org/ns/org#identifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
@@ -434,15 +416,49 @@ _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 # 
 # http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#entidad> .
+_:genid5 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid5 <http://www.w3.org/2002/07/owl#onClass> <http://www.w3.org/ns/org#Organization> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodo> .
+_:genid3 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid3 <http://www.w3.org/2002/07/owl#onClass> <http://www.w3.org/2006/time#ProperInterval> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral> <http://www.w3.org/2000/01/rdf-schema#comment> ""@es .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral> <http://www.w3.org/2000/01/rdf-schema#comment> "Trimestralmente el ayuntamiento y sus entidades dependientes reportan el Periodo Medio de Pago a Proveedores expresado en días."@es .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral> <http://www.w3.org/2000/01/rdf-schema#comment> "Quarterly the municipality and its dependent entities report the Average Period of Payment to Suppliers expressed in days." .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral> <http://www.w3.org/2000/01/rdf-schema#comment> "Quarterly, the municipality and its dependent entities report the Average Period of Payment to Suppliers expressed in days." .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral> <http://www.w3.org/2000/01/rdf-schema#label> "Informe morosidad trimestral"@es .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral> <http://www.w3.org/2000/01/rdf-schema#label> "Quarterly late payment report"@en .
 # 
 # http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#entidad> .
+_:genid10 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid10 <http://www.w3.org/2002/07/owl#onClass> <http://www.w3.org/ns/org#Organization> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodo> .
+_:genid8 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid8 <http://www.w3.org/2002/07/owl#onClass> <http://www.w3.org/2006/time#ProperInterval> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual> <http://www.w3.org/2000/01/rdf-schema#comment> "Mensualmente el ayuntamiento y sus entidades dependientes reportan el Periodo Medio de Pago a Proveedores (PMP) expresado en días. Todos los ayuntamientos están obligados a comunicar el PMP mensual al Ministerio de Hacienda en los términos definidos por el Real Decreto 635/2014."@es .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual> <http://www.w3.org/2000/01/rdf-schema#comment> "Monthly, the municipality and its dependent entities report the Average Period of Payment to Suppliers (PMP) expressed in days. All municipalities are obliged to communicate the monthly PMP to the Ministry of Finance in the terms defined by Royal Decree 635/2014."@en .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" .
@@ -451,6 +467,11 @@ _:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 # 
 # http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensualGlobal
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensualGlobal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensualGlobal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodo> .
+_:genid11 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid11 <http://www.w3.org/2002/07/owl#onClass> <http://www.w3.org/2006/time#ProperInterval> .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensualGlobal> <http://www.w3.org/2000/01/rdf-schema#comment> "Mensualmente se reporta el Periodo Medio de Pago Global a Proveedores Mensual expresado en días."@es .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensualGlobal> <http://www.w3.org/2000/01/rdf-schema#comment> "The Average Monthly Global Payment Period to Suppliers is reported monthly and expressed in days."@en .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensualGlobal> <http://www.w3.org/2000/01/rdf-schema#label> "Global monthly PMP report"@en .

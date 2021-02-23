@@ -1,22 +1,87 @@
 [ {
   "@id" : "_:genid1",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral"
+      "@id" : "_:genid5"
     }, {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual"
+      "@id" : "_:genid3"
     } ]
   } ]
 }, {
-  "@id" : "_:genid4",
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.w3.org/ns/org#Organization"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#entidad"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.w3.org/2006/time#ProperInterval"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodo"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.w3.org/2006/time#ProperInterval"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodo"
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.w3.org/ns/org#Organization"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#entidad"
+  } ]
+}, {
+  "@id" : "_:genid6",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
     "@list" : [ {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral"
+      "@id" : "_:genid10"
     }, {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual"
+      "@id" : "_:genid8"
     } ]
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.w3.org/2006/time#ProperInterval"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodo"
   } ]
 }, {
   "@id" : "http://purl.org/dc/elements/1.1/contributor",
@@ -147,7 +212,7 @@
     "@language" : "es",
     "@value" : "Trimestralmente el ayuntamiento y sus entidades dependientes reportan el Periodo Medio de Pago a Proveedores expresado en días."
   }, {
-    "@value" : "Quarterly the municipality and its dependent entities report the Average Period of Payment to Suppliers expressed in days."
+    "@value" : "Quarterly, the municipality and its dependent entities report the Average Period of Payment to Suppliers expressed in days."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
@@ -158,6 +223,9 @@
   }, {
     "@language" : "en",
     "@value" : "Quarterly late payment report"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid1"
   } ]
 }, {
   "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual",
@@ -178,6 +246,9 @@
   }, {
     "@language" : "en",
     "@value" : "Monthly PMP report"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid6"
   } ]
 }, {
   "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensualGlobal",
@@ -195,6 +266,9 @@
   }, {
     "@language" : "es",
     "@value" : "Informe PMP Mensual Global"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid11"
   } ]
 }, {
   "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#entidad",
@@ -205,9 +279,6 @@
   }, {
     "@language" : "en",
     "@value" : "City council or dependent entity on which it is informed."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "_:genid1"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
@@ -516,10 +587,10 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "en",
-    "@value" : "Number of payments with late payment interest within the period."
+    "@value" : "Number of payments of late payment interest within the period."
   }, {
     "@language" : "es",
-    "@value" : "Número de pagos con intereses de demora dentro del período."
+    "@value" : "Número de pagos de intereses de demora dentro del período."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral"
@@ -546,9 +617,6 @@
   }, {
     "@language" : "es",
     "@value" : "Período que se está reportando en un informe de morosidad."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "_:genid4"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
     "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
@@ -910,34 +978,34 @@
   "@id" : "http://www.w3.org/2006/time#hasTime",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
 }, {
-  "@id" : "http://www.w3.org/2006/time#inXSDgYearMonth",
+  "@id" : "http://www.w3.org/2006/time#inXSDDate",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "es",
-    "@value" : "Posición de un instante, expresado utilizando xsd:gYearMonth."
+    "@value" : "Posición de un instante, expresado utilizando xsd:date."
   }, {
     "@language" : "en",
-    "@value" : "Position of an instant, expressed using xsd:gYearMonth"
+    "@value" : "Position of an instant, expressed using xsd:date"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://www.w3.org/2006/time#Instant"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "es",
-    "@value" : "en año-mes gregoriano XSD"
+    "@value" : "en fecha XSD"
   }, {
     "@language" : "en",
-    "@value" : "in XSD g-YearMonth"
+    "@value" : "in XSD date"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#gYearMonth"
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
   } ],
   "http://www.w3.org/2004/02/skos/core#definition" : [ {
     "@language" : "es",
-    "@value" : "Posición de un instante, expresado utilizando xsd:gYearMonth."
+    "@value" : "Posición de un instante, expresado utilizando xsd:date."
   }, {
     "@language" : "en",
-    "@value" : "Position of an instant, expressed using xsd:gYearMonth"
+    "@value" : "Position of an instant, expressed using xsd:date"
   } ]
 }, {
   "@id" : "http://www.w3.org/ns/org#Organization",
