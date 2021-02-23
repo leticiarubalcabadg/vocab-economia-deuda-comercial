@@ -293,8 +293,8 @@
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral> .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of payments with late payment interest within the period."@en .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#comment> "Número de pagos con intereses de demora dentro del período."@es .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of payments of late payment interest within the period."@en .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#comment> "Número de pagos de intereses de demora dentro del período."@es .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#label> "number payments late payment interest"@en .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#numPagosInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#label> "número pagos intereses demora"@es .
@@ -435,7 +435,7 @@ _:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/19
 _:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral> <http://www.w3.org/2000/01/rdf-schema#comment> ""@es .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral> <http://www.w3.org/2000/01/rdf-schema#comment> "Trimestralmente el ayuntamiento y sus entidades dependientes reportan el Periodo Medio de Pago a Proveedores expresado en días."@es .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral> <http://www.w3.org/2000/01/rdf-schema#comment> "Quarterly the municipality and its dependent entities report the Average Period of Payment to Suppliers expressed in days." .
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral> <http://www.w3.org/2000/01/rdf-schema#comment> "Quarterly, the municipality and its dependent entities report the Average Period of Payment to Suppliers expressed in days." .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral> <http://www.w3.org/2000/01/rdf-schema#label> "Informe morosidad trimestral"@es .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformeMorosidadTrimestral> <http://www.w3.org/2000/01/rdf-schema#label> "Quarterly late payment report"@en .

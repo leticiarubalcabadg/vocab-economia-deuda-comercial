@@ -317,8 +317,8 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                                   owl:FunctionalProperty ;
                          rdfs:domain :InformeMorosidadTrimestral ;
                          rdfs:range xsd:integer ;
-                         rdfs:comment "Number of payments with late payment interest within the period."@en ,
-                                      "Número de pagos con intereses de demora dentro del período."@es ;
+                         rdfs:comment "Number of payments of late payment interest within the period."@en ,
+                                      "Número de pagos de intereses de demora dentro del período."@es ;
                          rdfs:isDefinedBy "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" ;
                          rdfs:label "number payments late payment interest"@en ,
                                     "número pagos intereses demora"@es .
@@ -462,7 +462,7 @@ pendientes de pago al final del período."""@es ,
                                             ] ;
                             rdfs:comment ""@es ,
                                          "Trimestralmente el ayuntamiento y sus entidades dependientes reportan el Periodo Medio de Pago a Proveedores expresado en días."@es ,
-                                         "Quarterly the municipality and its dependent entities report the Average Period of Payment to Suppliers expressed in days." ;
+                                         "Quarterly, the municipality and its dependent entities report the Average Period of Payment to Suppliers expressed in days." ;
                             rdfs:isDefinedBy "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" ;
                             rdfs:label "Informe morosidad trimestral"@es ,
                                        "Quarterly late payment report"@en .
