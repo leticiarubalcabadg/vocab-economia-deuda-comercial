@@ -2,8 +2,8 @@
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix : <> .
-<http://vocab.ciudadesabiertas.es/def/hacienda/deuda-publica-comercial/1.0.0> a prov:Entity;
-	 dc:title "Vocabulary for the representation of the Economical  Public Debt of a city council.";
+<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial/1.0.0> a prov:Entity;
+	 dc:title "Vocabulary for the representation of the Commercial Public Debt of a city council.";
 	 prov:wasAttributedTo :agent0;
 	 prov:wasAttributedTo :agent1;
 	 prov:wasAttributedTo :agent2;
@@ -16,17 +16,21 @@
 	 prov:wasAttributedTo :agent9;
 	 prov:wasAttributedTo :agent10;
 	 prov:wasAttributedTo :agent11;
+	 prov:wasAttributedTo :agent12;
+	 prov:wasAttributedTo :agent13;
 	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
 .
 :agent0 a prov:Agent; foaf:name "Edna Ruckhaus (Ontology Engineering Group - Universidad Politécnica de Madrid)".
 :agent1 a prov:Agent; foaf:name "Oscar Corcho (Ontology Engineering Group - Universidad Politécnica de Madrid, Localidata)".
 :agent2 a prov:Agent; foaf:name "Paola Espinoza Arias (Ontology Engineering Group - Universidad Politécnica de Madrid)".
-:agent3 a prov:Agent; foaf:name "Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid".
-:agent4 a prov:Agent; foaf:name "María Carmen Ruiz Moreno - Ayuntamiento de Madrid".
-:agent5 a prov:Agent; foaf:name "María Jesús Fernández Ruiz - Ayuntamiento de Zaragoza".
-:agent6 a prov:Agent; foaf:name "María Jesús Gallego San Miguel - Ayuntamiento de Madrid".
-:agent7 a prov:Agent; foaf:name "María del Mar Arribas de Andrés - Ayuntamiento de Madrid".
-:agent8 a prov:Agent; foaf:name "Red.es".
-:agent9 a prov:Agent; foaf:name "Servicio de Informática - Ayuntamiento de Santiago de Compostela".
-:agent10 a prov:Agent; foaf:name "Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña".
-:agent11 a prov:Agent; foaf:name "Víctor Morlán Plo - Ayuntamiento de Zaragoza".
+:agent3 a prov:Agent; foaf:name "Carmen Hervás Bautista - Ayuntamiento de Madrid".
+:agent4 a prov:Agent; foaf:name "Honorio Enrique Crespo Díaz-Alejo - Ayuntamiento de Madrid".
+:agent5 a prov:Agent; foaf:name "Manuel Alejandro Pose Pose - Ayuntamiento de A Coruña".
+:agent6 a prov:Agent; foaf:name "María Carmen Ruiz Moreno - Ayuntamiento de Madrid".
+:agent7 a prov:Agent; foaf:name "María Jesús Fernández Ruiz - Ayuntamiento de Zaragoza".
+:agent8 a prov:Agent; foaf:name "María Jesús Gallego San Miguel - Ayuntamiento de Madrid".
+:agent9 a prov:Agent; foaf:name "María del Mar Arribas de Andrés - Ayuntamiento de Madrid".
+:agent10 a prov:Agent; foaf:name "Red.es".
+:agent11 a prov:Agent; foaf:name "Servicio de Informática - Ayuntamiento de Santiago de Compostela".
+:agent12 a prov:Agent; foaf:name "Servicio de Innovación y Desarrollo Tecnológico - Ayuntamiento de A Coruña".
+:agent13 a prov:Agent; foaf:name "Víctor Morlán Plo - Ayuntamiento de Zaragoza".
