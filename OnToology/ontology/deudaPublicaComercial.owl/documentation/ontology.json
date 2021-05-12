@@ -372,58 +372,6 @@
     "@id" : "http://www.w3.org/2001/XMLSchema#float"
   } ]
 }, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPagadas",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "es",
-    "@value" : "Importe total de operaciones pagadas durante el período."
-  }, {
-    "@language" : "en",
-    "@value" : "Total amount of operations paid during the period."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "amount paid operations"
-  }, {
-    "@language" : "es",
-    "@value" : "importe operaciones pagadas"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#float"
-  } ]
-}, {
-  "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPendientesPago",
-  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "es",
-    "@value" : "Importe total de operaciones pendientes de pago en el período."
-  }, {
-    "@language" : "en",
-    "@value" : "Total amount of operations pending payment in the period."
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
-    "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
-    "@value" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "en",
-    "@value" : "amount operations pending payment"
-  }, {
-    "@language" : "es",
-    "@value" : "importe operaciones pendientes pago"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
-    "@id" : "http://www.w3.org/2001/XMLSchema#float"
-  } ]
-}, {
   "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importePagosDentroPeriodo",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {

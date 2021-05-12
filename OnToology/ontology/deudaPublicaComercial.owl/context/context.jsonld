@@ -31,10 +31,6 @@
       "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoMensualGlobal",
       "@type" : "http://www.w3.org/2001/XMLSchema#float"
     },
-    "importeOperacionesPagadas" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPagadas",
-      "@type" : "http://www.w3.org/2001/XMLSchema#float"
-    },
     "Instant" : {
       "@id" : "http://www.w3.org/2006/time#Instant"
     },
@@ -47,10 +43,6 @@
     },
     "periodoMedioPagoTrimestral" : {
       "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#periodoMedioPagoTrimestral",
-      "@type" : "http://www.w3.org/2001/XMLSchema#float"
-    },
-    "importeOperacionesPendientesPago" : {
-      "@id" : "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPendientesPago",
       "@type" : "http://www.w3.org/2001/XMLSchema#float"
     },
     "numFacturasPendientesFueraPeriodo" : {

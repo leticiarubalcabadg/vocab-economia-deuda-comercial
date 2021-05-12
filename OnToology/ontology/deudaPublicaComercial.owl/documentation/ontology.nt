@@ -199,28 +199,6 @@
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#label> "amount late payment interest"@en .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeInteresesDemora> <http://www.w3.org/2000/01/rdf-schema#label> "importe intereses demora"@es .
 # 
-# http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPagadas
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPagadas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPagadas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPagadas> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual> .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPagadas> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPagadas> <http://www.w3.org/2000/01/rdf-schema#comment> "Importe total de operaciones pagadas durante el período."@es .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPagadas> <http://www.w3.org/2000/01/rdf-schema#comment> "Total amount of operations paid during the period."@en .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPagadas> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPagadas> <http://www.w3.org/2000/01/rdf-schema#label> "amount paid operations"@en .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPagadas> <http://www.w3.org/2000/01/rdf-schema#label> "importe operaciones pagadas"@es .
-# 
-# http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPendientesPago
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPendientesPago> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPendientesPago> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPendientesPago> <http://www.w3.org/2000/01/rdf-schema#domain> <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual> .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPendientesPago> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPendientesPago> <http://www.w3.org/2000/01/rdf-schema#comment> "Importe total de operaciones pendientes de pago en el período."@es .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPendientesPago> <http://www.w3.org/2000/01/rdf-schema#comment> "Total amount of operations pending payment in the period."@en .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPendientesPago> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPendientesPago> <http://www.w3.org/2000/01/rdf-schema#label> "amount operations pending payment"@en .
-<http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPendientesPago> <http://www.w3.org/2000/01/rdf-schema#label> "importe operaciones pendientes pago"@es .
-# 
 # http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importePagosDentroPeriodo
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importePagosDentroPeriodo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importePagosDentroPeriodo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
