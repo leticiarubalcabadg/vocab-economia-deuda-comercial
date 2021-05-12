@@ -313,36 +313,6 @@
     
 
 
-    <!-- http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPagadas -->
-
-    <owl:DatatypeProperty rdf:about="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPagadas">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-        <rdfs:comment xml:lang="es">Importe total de operaciones pagadas durante el período.</rdfs:comment>
-        <rdfs:comment xml:lang="en">Total amount of operations paid during the period.</rdfs:comment>
-        <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">amount paid operations</rdfs:label>
-        <rdfs:label xml:lang="es">importe operaciones pagadas</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
-    <!-- http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPendientesPago -->
-
-    <owl:DatatypeProperty rdf:about="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPendientesPago">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
-        <rdfs:domain rdf:resource="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#InformePMPMensual"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
-        <rdfs:comment xml:lang="es">Importe total de operaciones pendientes de pago en el período.</rdfs:comment>
-        <rdfs:comment xml:lang="en">Total amount of operations pending payment in the period.</rdfs:comment>
-        <rdfs:isDefinedBy>http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial</rdfs:isDefinedBy>
-        <rdfs:label xml:lang="en">amount operations pending payment</rdfs:label>
-        <rdfs:label xml:lang="es">importe operaciones pendientes pago</rdfs:label>
-    </owl:DatatypeProperty>
-    
-
-
     <!-- http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importePagosDentroPeriodo -->
 
     <owl:DatatypeProperty rdf:about="http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importePagosDentroPeriodo">

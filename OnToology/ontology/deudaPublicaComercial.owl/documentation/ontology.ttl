@@ -215,30 +215,6 @@ xsd:gYearMonth rdf:type rdfs:Datatype .
                                    "importe intereses demora"@es .
 
 
-###  http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPagadas
-:importeOperacionesPagadas rdf:type owl:DatatypeProperty ,
-                                    owl:FunctionalProperty ;
-                           rdfs:domain :InformePMPMensual ;
-                           rdfs:range xsd:float ;
-                           rdfs:comment "Importe total de operaciones pagadas durante el período."@es ,
-                                        "Total amount of operations paid during the period."@en ;
-                           rdfs:isDefinedBy "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" ;
-                           rdfs:label "amount paid operations"@en ,
-                                      "importe operaciones pagadas"@es .
-
-
-###  http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importeOperacionesPendientesPago
-:importeOperacionesPendientesPago rdf:type owl:DatatypeProperty ,
-                                           owl:FunctionalProperty ;
-                                  rdfs:domain :InformePMPMensual ;
-                                  rdfs:range xsd:float ;
-                                  rdfs:comment "Importe total de operaciones pendientes de pago en el período."@es ,
-                                               "Total amount of operations pending payment in the period."@en ;
-                                  rdfs:isDefinedBy "http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial" ;
-                                  rdfs:label "amount operations pending payment"@en ,
-                                             "importe operaciones pendientes pago"@es .
-
-
 ###  http://vocab.ciudadesabiertas.es/def/economia/deuda-publica-comercial#importePagosDentroPeriodo
 :importePagosDentroPeriodo rdf:type owl:DatatypeProperty ;
                            rdfs:subPropertyOf owl:topDataProperty ;
