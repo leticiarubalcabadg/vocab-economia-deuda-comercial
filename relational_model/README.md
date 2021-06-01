@@ -46,7 +46,7 @@ Este documento contiene la información detallada del modelo de datos asociado a
 ## DIAGRAMA CONCEPTUAL <a name="id3"></a>
 &nbsp;
 
-El diagrama muestra las clases y propiedades del vocabulario que representa la Deuda Pública Financiera como indicador esencial de las cuentas públicas de un ayuntamiento.
+El diagrama muestra las clases y propiedades del vocabulario que representa la Deuda Pública Conceptual como indicador esencial de las cuentas públicas de un ayuntamiento.
 
 &nbsp;
 ![Diagrama conceptual](http://ciudadesabiertas.es/vocab-economia-deuda-comercial/OnToology/ontology/deudaPublicaComercial.owl/documentation/resources/images/modeloConceptual.png)
